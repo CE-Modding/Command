@@ -1,4 +1,3 @@
-# **Command** is the public repository of **Command** 
 https://discord.gg/6zaYE4eaEw
 
 ## Please read the [license](https://github.com/CE-Modding/Command/blob/main/License.md) before downloading ANYTHING from this repository.
