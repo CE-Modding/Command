@@ -81,6 +81,13 @@ class CfgUnitInsignia
         texture="Command_Master\Data\Patch_FU_CA.paa";
         textureVehicle="Command_Master\Data\Patch_FU_CA.paa";
     };
+    class AntiFurry_Insignia
+    {
+        displayName="[CMD] Anti-Furry";
+        author="Andre";
+        texture="Command_Master\Data\Patch_AntiFurry.paa";
+        textureVehicle="Command_Master\Data\Patch_AntiFurry.paa";
+    };
 
     // Patch Background Textures (_CO)
     class CommandAlt_Insignia
