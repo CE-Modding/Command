@@ -1,6 +1,6 @@
-# **Command** is the public repository of **Command // Arma 3** https://discord.gg/6zaYE4eaEw
+https://discord.gg/6zaYE4eaEw
 
-## Please read the [license](https://github.com/Eagle-Studios/CE_Mods?tab=License-1-ov-file#readme) before downloading ANYTHING from this repository.
+## Please read the [license](https://github.com/CE-Modding/Command/blob/main/License.md) before downloading ANYTHING from this repository.
 
 ## How to build into a mod. 
 
