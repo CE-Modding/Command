@@ -9,3 +9,8 @@ https://discord.gg/6zaYE4eaEw
 
 ## Questions?
 If you have questions about how to add to the mod folders, create an issue and I will assist you. 
+
+
+## Updates to this repo
+This repo is synced so when I make changes to the physical modding folder on my project drive, this will take directly from that source folder. <br>
+Please test the pbos before publishing them, to ensure they work correctly; please let me know asap if there are any publishing issues.
