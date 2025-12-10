@@ -1,0 +1,4 @@
+﻿# Credits & Licensing
+https://steamcommunity.com/id/CEagle/
+
+## Licensing - https://github.com/CE-Modding/Command/blob/main/License.md

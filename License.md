@@ -1,4 +1,4 @@
-# Arma 3 Mods / Files that link to this licence specifically are licensed under the [APL-SA licence](https://www.bohemia.net/community/licenses/arma-public-license-share-alike)
+# Arma 3 Mods / Files that link to this licence specifically are licensed under a modified [APL-SA licence](https://www.bohemia.net/community/licenses/arma-public-license-share-alike)
 
 ## In short, this means:  
 
@@ -11,22 +11,14 @@ With this licence you are free to adapt (i.e. modify, rework or update) and shar
 
 ## Furthermore: 
 
-- You **MUST** attribute myself (The Creator/Source) on any/all modifications which inherit some or wholey the content that I have created.
-   - This applies to both this GitHub **AND** my Steam Workshop. 
-
 - You **MUST** retain any/all supplied licenses and supporting documents. 
-
-- You **MUST** provide a link to the original source as part of any description(s).
-   - _Original source being this repository OR the Steam Workshop page_.
+   - This includes author sections within configs (You can only add your name to stuff you are adding, you are not change existing authors)
+   - This includes the license.txt included in the Command_Master folder/pbo. 
 
 - You **MUST** acknowledge that I reserve the right to deny the use of any of my creations at any time.
    - _This includes the revoking of past permissions, should I feel the need to do so_.
-     
-- You **MUST NOT** open or modify the provided PBO files in my mod(s). (You can freely modify, via class inheritance contained within your own mod(s)).
-   - Should you wish to build upon the material, you can submit an [Issue](https://github.com/Eagle-Studios/CE_Mods/issues/new) on this Github.
-      - Ensure you include what you wish to be added, as well as any necessary links/files that you wish to be included (Example: You wish to add a texture to my [Naval](https://steamcommunity.com/sharedfiles/filedetails/?id=3382844451) mod).
 
-- You **CANNOT** reupload my PBO files (You **MUST** add my mod(s) as a requiredAddon only), following the other terms of this licence. 
+- You **CANNOT** take files from this repo and use them for your own project. These files are to be kept within the folders/pbos provided.
 
 ## Additionally
 
