@@ -35,7 +35,7 @@ class CfgVehicles
 		editorSubcategory="Command_Haven";
 		hiddenSelectionsTextures[]=
 		{
-			"CE_RHS\CE_RHSUSAF_Vehicles\Bro_MELB_Skins\hammerhead\\HammerHeadPrime.paa",
+			"CE_RHS\CE_RHSUSAF_Vehicles\Bro_MELB_Skins\hammerhead\HammerHeadPrime.paa",
 			"rhsusf\addons\rhsusf_melb\data\decals\SN\blank_ca.paa"
 		};
 		class TextureSources
