@@ -18,9 +18,12 @@ With this licence you are free to adapt (i.e. modify, rework or update) and shar
 - You **MUST** acknowledge that I reserve the right to deny the use of any of my creations at any time.
    - _This includes the revoking of past permissions, should I feel the need to do so_.
 
-- You **CANNOT** take files from this repo and use them for your own project. These files are to be kept within the folders/pbos provided.
-
 ## Additionally
+
+### The CMD_Medical_GUI.pbo is applied with a APL-ND license:
+   - You are only allowed to upload this pbo as it is. 
+      - This means no opening/reverse-engineering/ripping/modifying its contents.
+      - This was developed by myself and with scripting help from someone who no longer matters (bc they chose to steal my work).
 
 ### Any mods published via this repository OR my Steam Workshop page **ARE NOT** to be used by any of the following;
 
