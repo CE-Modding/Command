@@ -33,6 +33,10 @@ private _CMD_BscAIO = _CMD_BscMedical + _CMD_BasicItems + _CMD_BallisticMasks + 
 
 //--- E D I T   F R O M   H E R E   O N L Y --------------
 
+//NOTE: Put all of the basic equipment that everyone should have!!!
+//EX: _Mission_Basic_Equipment = ["rhs_weap_ak74n_gp25","ACE_M26_Clacker"];
+private _Mission_Basic_Equipment = [];
+
 //------------ Set this to true to have pilots and crewman share the same equipment ------------------
 _crewPilotShareEquip=false;
 
@@ -42,7 +46,7 @@ switch (_role) do {
 
 case "Command": {
 		systemChat "Arsenal Role: Command";
-		[_box, _CMD_BscAIO + _CMD_AdvMedical + [ 
+		[_box, _CMD_BscAIO + _CMD_AdvMedical + _Mission_Basic_Equipment + [ 
 
 			// Insert Command Loadout here, below this line
 			//Example:"rhs_weap_ak74n_gp25","ACE_M26_Clacker"
@@ -52,7 +56,7 @@ case "Command": {
 
 case "Crewman": {
 		systemChat "Arsenal Role: Crewman";
-		[_box, _CMD_BscAIO + _CMD_AdvMedical + [ 
+		[_box, _CMD_BscAIO + _CMD_AdvMedical + _Mission_Basic_Equipment + [ 
 
 			// Insert Crewman Loadout here, below this line
 
@@ -62,7 +66,7 @@ case "Crewman": {
 
 case "Pilot": {
 		systemChat "Arsenal Role: Pilot";
-		[_box, _CMD_BscAIO + _CMD_AdvMedical + _CMD_PilotEquipment + [
+		[_box, _CMD_BscAIO + _CMD_AdvMedical + _CMD_PilotEquipment + _Mission_Basic_Equipment + [
 
 			// Insert Pilot Loadout here, below this line
 
@@ -72,7 +76,7 @@ case "Pilot": {
 
 case "Medic": {
 		systemChat "Arsenal Role: Medic";
-		[_box, _CMD_BscAIO + _CMD_AdvMedical + [
+		[_box, _CMD_BscAIO + _CMD_AdvMedical + _Mission_Basic_Equipment + [
 
 			// Insert Medic Loadout here, below this line
 
@@ -82,7 +86,7 @@ case "Medic": {
 
 case "Marksman": {
 		systemChat "Arsenal Role: Marksman";
-		[_box, _CMD_BscAIO + [
+		[_box, _CMD_BscAIO + _Mission_Basic_Equipment + [
 
 			// Insert Marksman Loadout here, below this line
 			
@@ -93,7 +97,7 @@ case "Marksman": {
 
 case "EOD": {
 		systemChat "Arsenal Role: EOD";
-		[_box, _CMD_BscAIO + _CMD_Explosives + [
+		[_box, _CMD_BscAIO + _CMD_Explosives + _Mission_Basic_Equipment + [
 
 			// Insert Engineer Loadout here, below this line
 
@@ -103,7 +107,7 @@ case "EOD": {
 
 case "MG": {
 		systemChat "Arsenal Role: MG";
-		[_box, _CMD_BscAIO + [
+		[_box, _CMD_BscAIO + _Mission_Basic_Equipment + [
 
 			// Insert Autorifleman Loadout here, below this line
 
@@ -114,7 +118,7 @@ case "MG": {
 
 case "GL": {
 		systemChat "Arsenal Role: GL";
-		[_box, _CMD_BscAIO + [
+		[_box, _CMD_BscAIO + _Mission_Basic_Equipment + [
 			
 			// Insert Grenadier Loadout here, below this line
 			
@@ -124,7 +128,7 @@ case "GL": {
 
 case "Antitank": {
 		systemChat "Arsenal Role: Antitank";
-		[_box, _CMD_BscAIO + [
+		[_box, _CMD_BscAIO + _Mission_Basic_Equipment + [
 
 			// Insert Anti-Tank Loadout here, below this line
 
@@ -134,7 +138,7 @@ case "Antitank": {
 
 default {
 		systemChat "Arsenal Role: Rifleman";
-		[_box, _CMD_BscAIO, false] call ace_arsenal_fnc_initBox;
+		[_box, _CMD_BscAIO + _Mission_Basic_Equipment, false] call ace_arsenal_fnc_initBox;
 	};
 
 
