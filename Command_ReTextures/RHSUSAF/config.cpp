@@ -19,11 +19,10 @@ class CfgPatches
 		{
 			"rhsusf_main",
 			"rhsusf_c_troops",
-			"rhsusf_c_weapons",
-			"CE_RHSUSAF_Equipment"
+			"rhsusf_c_weapons"
 		};
 		skipWhenMissingDependencies=1;
-		addonRootClass=Command_ReTextures;
+		addonRootClass="Command_ReTextures";
 	};
 };
 
@@ -66,7 +65,8 @@ class CfgWeapons
 		hiddenSelections[]=
 		{
 			"camo",
-			"patches"
+			"patches",
+			"visor"
 		};
 		author="Almus";
 		subItems[]=
@@ -80,21 +80,8 @@ class CfgWeapons
 		hiddenSelections[]=
 		{
 			"camo",
-			"patches"
-		};
-		author="Almus";
-		subItems[]=
-		{
-			"Integrated_NVG_F"
-		};
-	};
-	class Command_hgu56p_visor_saf_base: rhsusf_hgu56p_visor_saf
-	{
-		scope=0;
-		hiddenSelections[]=
-		{
-			"camo",
-			"patches"
+			"patches",
+			"visor"
 		};
 		author="Almus";
 		subItems[]=
@@ -130,7 +117,8 @@ class CfgWeapons
 		hiddenSelectionsTextures[]=
 		{
 			"Command_ReTextures\RHSUSAF\Data\Haven_CO.paa",
-			"Command_ReTextures\RHSUSAF\Data\Haven_Patches_CA.paa"
+			"Command_ReTextures\RHSUSAF\Data\Haven_Patches_CA.paa",
+			"\rhsusf\addons\rhsusf_infantry2\gear\head\hgu56\Data\rhs_hgu56_visor_ca.paa"
 		};
 	};
 	class Command_haven_visor_mask: Command_hgu56p_visor_mask_base
@@ -140,7 +128,8 @@ class CfgWeapons
 		hiddenSelectionsTextures[]=
 		{
 			"Command_ReTextures\RHSUSAF\Data\Haven_CO.paa",
-			"Command_ReTextures\RHSUSAF\Data\Haven_Patches_CA.paa"
+			"Command_ReTextures\RHSUSAF\Data\Haven_Patches_CA.paa",
+			"\rhsusf\addons\rhsusf_infantry2\gear\head\hgu56\Data\rhs_hgu56_visor_ca.paa"
 		};
 	};
 
@@ -171,7 +160,8 @@ class CfgWeapons
 		hiddenSelectionsTextures[]=
 		{
 			"Command_ReTextures\RHSUSAF\Data\Haven2_CO.paa",
-			"Command_ReTextures\RHSUSAF\Data\HavenAlt_Patches_CA.paa"
+			"Command_ReTextures\RHSUSAF\Data\HavenAlt_Patches_CA.paa",
+			"\rhsusf\addons\rhsusf_infantry2\gear\head\hgu56\Data\rhs_hgu56_visor_ca.paa"
 		};
 	};
 	class Command_haven_visor_mask_alt: Command_hgu56p_visor_mask_base
@@ -181,7 +171,8 @@ class CfgWeapons
 		hiddenSelectionsTextures[]=
 		{
 			"Command_ReTextures\RHSUSAF\Data\Haven2_CO.paa",
-			"Command_ReTextures\RHSUSAF\Data\HavenAlt_Patches_CA.paa"
+			"Command_ReTextures\RHSUSAF\Data\HavenAlt_Patches_CA.paa",
+			"\rhsusf\addons\rhsusf_infantry2\gear\head\hgu56\Data\rhs_hgu56_visor_ca.paa"
 		};
 	};
 
