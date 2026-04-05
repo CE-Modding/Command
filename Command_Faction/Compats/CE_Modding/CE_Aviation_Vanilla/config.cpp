@@ -19,7 +19,7 @@ class CfgPatches
 			"CE_Aviation_Vanilla_Xian"
 		};
 		skipWhenMissingDependencies=1;
-		addonRootClass=Command_Faction_Compats_CEModding;
+		addonRootClass="Command_Faction_Compats_CEModding";
 	};
 };
 

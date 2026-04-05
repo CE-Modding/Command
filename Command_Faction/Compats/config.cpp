@@ -11,5 +11,5 @@ class CfgPatches
             "Command_Faction"
 		};
 	};
-    addonRootClass=Command_Faction;
+    addonRootClass="Command_Faction";
 };

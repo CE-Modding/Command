@@ -15,7 +15,7 @@ class CfgPatches
 			"A3_Data_F_Decade_Loadorder"
 		};
 		skipWhenMissingDependencies=1;
-		addonRootClass=Command_ReTextures;
+		addonRootClass="Command_ReTextures";
 	};
 };
 

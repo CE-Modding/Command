@@ -1,6 +1,6 @@
 class CfgPatches
 {
-	class Command_Faction_Compats_CEModding
+	class Command_ReTextures_CEModding
 	{
 		units[]={};
 		weapons[]={};
@@ -8,10 +8,9 @@ class CfgPatches
 		{
             "CBA_Main",
             "Command_Master",
-			"Command_Faction",
-			"Command_Faction_Compats"
+			"Command_ReTextures"
 		};
-		addonRootClass="Command_Faction_Compats";
+		addonRootClass="Command_ReTextures";
 	};
     
 };

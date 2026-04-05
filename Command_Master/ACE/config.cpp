@@ -13,7 +13,7 @@ class CfgPatches
             "ace_medical_treatment"
 		};
 		skipWhenMissingDependencies=1;
-		addonRootClass=Command_Master;
+		addonRootClass="Command_Master";
 	};
 };
 

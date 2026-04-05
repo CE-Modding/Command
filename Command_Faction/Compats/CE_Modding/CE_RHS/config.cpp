@@ -18,7 +18,7 @@ class CfgPatches
 			"CE_RHSUSAF_AH6M"
 		};
 		skipWhenMissingDependencies=1;
-		addonRootClass=Command_Faction_Compats_CEModding;
+		addonRootClass="Command_Faction_Compats_CEModding";
 	};
 };
 

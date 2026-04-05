@@ -6,7 +6,7 @@ class CfgPatches
 		requiredAddons[]={};
 		units[]={};
 		weapons[]={};
-		addonRootClass=Command_Audio;
+		addonRootClass="Command_Audio";
 	};
 };
 class CfgMusic

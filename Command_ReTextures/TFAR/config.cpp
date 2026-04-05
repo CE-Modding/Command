@@ -15,7 +15,7 @@ class CfgPatches
 			"A3_Supplies_F_Enoch_Bags"
 		};
 		skipWhenMissingDependencies=1;
-		addonRootClass=Command_ReTextures;
+		addonRootClass="Command_ReTextures";
 	};
 };
 

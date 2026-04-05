@@ -13,7 +13,7 @@ class CfgPatches
 			"rhs_c_weapons"
 		};
 		skipWhenMissingDependencies=1;
-		addonRootClass=Command_ReTextures;
+		addonRootClass="Command_ReTextures";
 	};
 };
 
