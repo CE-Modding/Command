@@ -12,5 +12,4 @@ class CfgPatches
 		};
 		addonRootClass="Command_ReTextures";
 	};
-    
 };

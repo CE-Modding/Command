@@ -13,7 +13,7 @@ class CfgPatches
 			"Command_haven_mask_alt",
 			"Command_haven_visor_alt",
 			"Command_haven_visor_mask_alt",
-			"Command_RHS_M4A1_COrvus19"
+			"Command_RHS_M4A1_Corvus19"
 		};
 		requiredAddons[]=
 		{
@@ -178,7 +178,7 @@ class CfgWeapons
 
 // M4
 	class rhs_weap_m4a1_carryhandle_mstock;
-    class Command_RHS_M4A1_COrvus19 : rhs_weap_m4a1_carryhandle_mstock
+    class Command_RHS_M4A1_Corvus19 : rhs_weap_m4a1_carryhandle_mstock
     {
         scope=2;
         displayName="[CMD] M4A1 (Corvus19)";
