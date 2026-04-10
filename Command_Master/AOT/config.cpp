@@ -61,7 +61,7 @@ class CfgPatches
 			"A3_Weapons_F",	// ItemCore
 			"Command_Master" // addonRootClass
 		};
-		addonRootClass=Command_Master;
+		addonRootClass="Command_Master";
 	};
 };
 

@@ -21,7 +21,7 @@ class CfgPatches
 			"rhsusf_c_weapons"
 		};
 		skipWhenMissingDependencies=1;
-		addonRootClass=Command_Faction_Compats;
+		addonRootClass="Command_Faction_Compats";
 	};
 };
 

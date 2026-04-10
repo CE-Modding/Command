@@ -9,7 +9,7 @@ class CfgPatches
 			"Command_SFX_BF3_UI"
 		};
 		weapons[]={};
-		addonRootClass=Command_Audio;
+		addonRootClass="Command_Audio";
 	};
 };
 

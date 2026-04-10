@@ -118,4 +118,18 @@ class CfgUnitInsignia
         texture="Command_Master\Data\Patch_Yeeteth_CO.paa";
         textureVehicle="Command_Master\Data\Patch_Yeeteth_CO.paa";
     };
+    class MTF_Insignia
+    {
+        displayName="[CMD] MTF";
+        author="Tb";
+        texture="Command_Master\Data\Patch_MTF_CO.paa";
+        textureVehicle="Command_Master\Data\Patch_MTF_CO.paa";
+    };
+    class Krill_Insignia
+    {
+        displayName="[CMD] Krill Yourself";
+        author="Tb";
+        texture="Command_Master\Data\Patch_Krill_CO.paa";
+        textureVehicle="Command_Master\Data\Patch_Krill_CO.paa";
+    };
 };  
