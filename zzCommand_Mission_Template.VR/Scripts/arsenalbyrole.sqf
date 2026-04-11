@@ -5,6 +5,10 @@
 	//NOTE:
 	//This script will only apply to the object with the variable name,
 	//if you have multiple arsenals, you must call this script for each of them.
+	
+	//When applying this script to an arsenal, it must have no whitelisted/blacklisted items. 
+	//It must be completely empty for this script to work. 
+	//Actual items in the inventory the arsenal should be fine. 
 //
 
 #include "DO_NOT_EDIT\playerRole.hpp"
@@ -53,7 +57,7 @@ private _CMD_MssnRfn=
 	// Insert string of mission-specific rifles/guns classnames here (everyone has access to these) (ex: "arifle_AK12_F","arifle_AKM_F","arifle_CTARS_blk_F" )
 ];
 
-private _CMD_MssnCmmn = _CMD_MssnEquip + _CMD_MssnAmmo + _CMD_MssnRfn
+private _CMD_MssnCmmn = _CMD_MssnEquip + _CMD_MssnAmmo + _CMD_MssnRfn;
 //--------------- Put all role specific equipment below --------------------------
 //NOTE: You can make a loadout and then press the "Export" button to make a specific loadout.
 switch (_role) do {
