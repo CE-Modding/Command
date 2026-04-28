@@ -1,6 +1,11 @@
-// Disables ambient life and enables enviroment sounds
+// Disables ambient life and enables enviroment sounds 
 sleep 0.1; //to make sure the following takes effect, see BIS wiki
-enableEnvironment [false, true];
+enableEnvironment 
+[
+	false, // true = enable clientside ambient creature 'agents' (snakes, birds etc)
+	true, // true = enable ambient creature sfx (Owls, Seagulls etc)
+	0.5	// howling sfx windCoef: 1 = max wind , 0 = no wind 
+];
 
 //Stops AI callouts
 enableSentences false;
