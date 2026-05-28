@@ -10,6 +10,7 @@ class CfgPatches
             "Command_Master",
             "Command_Faction"
 		};
+		addonRootClass="Command_Faction";
 	};
-    addonRootClass="Command_Faction";
+    
 };
