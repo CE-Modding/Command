@@ -85,8 +85,29 @@ class CfgUnitInsignia
     {
         displayName="[CMD] Anti-Furry";
         author="Andre";
-        texture="Command_Master\Data\Patch_AntiFurry.paa";
-        textureVehicle="Command_Master\Data\Patch_AntiFurry.paa";
+        texture="Command_Master\Data\Patch_AntiFurry_CA.paa";
+        textureVehicle="Command_Master\Data\Patch_AntiFurry_CA.paa";
+    };
+    class Thankless_Insignia
+    {
+        displayName="[CMD] It's a thankless job";
+        author="Gabriel Gilbert";
+        texture="Command_Master\Data\Patch_Thankless_CA.paa";
+        textureVehicle="Command_Master\Data\Patch_Thankless_CA.paa";
+    };
+    class DaWae_Insignia
+    {
+        displayName="[CMD] Do you know da wae?";
+        author="???";
+        texture="Command_Master\Data\Patch_DaWae_CA.paa";
+        textureVehicle="Command_Master\Data\Patch_DaWae_CA.paa";
+    };
+    class Cowabunga_Insignia
+    {
+        displayName="[CMD] Cowabunga it is";
+        author="???";
+        texture="Command_Master\Data\Patch_Cowabunga_CA.paa";
+        textureVehicle="Command_Master\Data\Patch_Cowabunga_CA.paa";
     };
 
     // Patch Background Textures (_CO)
