@@ -1,6 +1,6 @@
 class CfgPatches
 {
-	class Command_Faction_Compats_CEModding_CE_Aviation_Vanilla
+	class Command_Faction_Compats_CEModding_CE_RHS_2635
 	{
 		units[]=
 		{
@@ -16,7 +16,7 @@ class CfgPatches
 			"Command_Faction",
 			"Command_Faction_Compats",
 			"Command_Faction_Compats_CEModding",
-			"CE_Aviation_Vanilla_Xian"
+			"CE_RHS_2635_Vehicles_Xian"
 		};
 		skipWhenMissingDependencies=1;
 		addonRootClass="Command_Faction_Compats_CEModding";
