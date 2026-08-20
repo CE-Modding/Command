@@ -11,3 +11,7 @@ Command_Mission_Template.VR - Shortcut.lnk
 .vs/VSWorkspaceState.json
 FRXA_TFAR_Extra_Retextured_Equipment.rar
 Patches.png.rar
+Command_Audio/$PBOPREFIX$.txt
+Command_Faction/$PBOPREFIX$.txt
+Command_Master/$PBOPREFIX$.txt
+Command_ReTextures/$PBOPREFIX$.txt
