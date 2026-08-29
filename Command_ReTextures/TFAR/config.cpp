@@ -33,11 +33,115 @@ class CfgPatches
 	{
 		units[]=
 		{
-			"CMD_B_RadioBag_01_Medic_F",
-			"CMD_TFAR_anprc155_Medic"
+			"TFAR_anarc164",
+            "TFAR_anarc210",
+            "TFAR_anprc155",
+            "TFAR_bussole",
+            "TFAR_mr3000",
+            "TFAR_mr6000l",
+            "TFAR_rt1523g",
+            "TFAR_rt1523g_big",
+            "TFAR_anarc164_BH",
+            "TFAR_anarc164_PH",
+            "TFAR_anarc164_DH",
+            "TFAR_anarc164_FH",
+            "TFAR_anarc164_MH",
+            "TFAR_anarc164_WH",
+            "TFAR_anarc210_BH",
+            "TFAR_anarc210_PH",
+            "TFAR_anarc210_DH",
+            "TFAR_anarc210_FH",
+            "TFAR_anarc210_MH",
+            "TFAR_anarc210_WH",
+            "TFAR_MR6000L_BH",
+            "TFAR_MR6000L_PH",
+            "TFAR_MR6000L_DH",
+            "TFAR_MR6000L_FH",
+            "TFAR_MR6000L_MH",
+            "TFAR_MR6000L_WH",
+            "TFAR_anprc155",
+            "TFAR_anprc155_coyote",
+            "TFAR_anprc155_black",
+            "TFAR_anprc155_Multitarn",
+            "TFAR_anprc155_CSAT",
+            "TFAR_anprc155_CTRG",
+            "TFAR_anprc155_CTRGalt",
+            "TFAR_anprc155_Gray",
+            "TFAR_anprc155_m81",
+            "TFAR_anprc155_MARD",
+            "TFAR_anprc155_MARW",
+            "TFAR_anprc155_MC",
+            "TFAR_anprc155_NATOMC",
+            "TFAR_anprc155_RB",
+            "TFAR_anprc155_RG",
+            "TFAR_anprc155_RHSMC",
+            "TFAR_anprc155_RHSdigi",
+            "TFAR_anprc155_RHSUCP",
+            "TFAR_MR3000",
+            "TFAR_MR3000_coyote",
+            "TFAR_MR3000_black",
+            "TFAR_mr3000_bwmod",
+            "TFAR_MR3000_AAF",
+            "TFAR_MR3000_CTRG",
+            "TFAR_MR3000_CTRGalt",
+            "TFAR_MR3000_Gray",
+            "TFAR_MR3000_m81",
+            "TFAR_MR3000_MARD",
+            "TFAR_MR3000_MARW",
+            "TFAR_mr3000_multicam",
+            "TFAR_MR3000_NATOMC",
+            "TFAR_MR3000_RB",
+            "TFAR_MR3000_RG",
+            "TFAR_MR3000_RHSMC",
+            "TFAR_mr3000_rhs",
+            "TFAR_MR3000_RHSUCP",
+            "TFAR_rt1523g_big",
+            "TFAR_rt1523g_big_coyote",
+            "TFAR_rt1523g_big_black",
+            "TFAR_rt1523g_big_bwmod",
+            "TFAR_rt1523g_big_CSAT",
+            "TFAR_rt1523g_big_CTRG",
+            "TFAR_rt1523g_big_CTRGalt",
+            "TFAR_rt1523g_big_Gray",
+            "TFAR_rt1523g_big_m81",
+            "TFAR_rt1523g_big_MARD",
+            "TFAR_rt1523g_big_MARW",
+            "TFAR_rt1523g_big_MC",
+            "TFAR_rt1523g_big_AAF",
+            "TFAR_rt1523g_big_RB",
+            "TFAR_rt1523g_big_RG",
+            "TFAR_rt1523g_big_rhs",
+            "TFAR_rt1523g_big_RHSdigi",
+            "TFAR_rt1523g_big_RHSUCP",
+            "TFAR_rt1523g_BH",
+            "TFAR_rt1523g_PH",
+            "TFAR_rt1523g_DH",
+            "TFAR_rt1523g_FH",
+            "TFAR_rt1523g_MH",
+            "TFAR_rt1523g_WH",
+            "TFAR_rt1523g_Black",
+            "TFAR_rt1523g_CTRG",
+            "TFAR_rt1523g_CTRGalt",
+            "TFAR_rt1523g_m81",
+            "TFAR_rt1523g_MARD",
+            "TFAR_rt1523g_MARW",
+            "TFAR_rt1523g_MC",
+            "TFAR_rt1523g_RG",
+            "TFAR_rt1523g_RHSUCP",
+            "CMD_B_RadioBag_01_Medic_F",
+             "CMD_B_RadioBag_01_Bastion_F",
+            "CMD_B_RadioBag_01_Gator_F",
+            "CMD_B_RadioBag_01_Fox_F",
+            "CMD_B_RadioBag_01_Haven_F",
+			"CMD_TFAR_anprc155_Medic",
+            "CMD_TFAR_anprc155_Platoon",
+            "CMD_TFAR_anprc155_Command",
+            "CMD_TFAR_anprc155_Haven",
+            "CMD_TFAR_anprc155_Bastion",
+            "CMD_TFAR_anprc155_Gator",
+            "CMD_TFAR_anprc155_Fox"
 		};
-		weapons[]=
-		{};
+		weapons[]={};
 		requiredAddons[]=
 		{
 			"tfar_core",
@@ -58,7 +162,7 @@ class CfgPatches
 	RT-152		= clf_prc117g_ap.p3d
 	RT-152 BIG	= clf_nicecomm2.p3d
 	
-	// \Command_ReTextures\TFAR\
+	// \Command\Command_ReTextures\TFAR\
 	Bussole 	= tf_bussole.p3d
 
 	// \a3\Supplies_F_Enoch\Bags\
@@ -116,6 +220,15 @@ class CfgVehicles
 		tf_encryptionCode="";
 		tf_range=TFR_20K;
 	};
+    class TFAR_Bag_Base: Bag_Base
+	{
+		tf_dialogUpdate="call TFAR_fnc_updateLRDialogToChannel;";
+		tf_hasLRradio=1;
+		scope=1;
+		scopeCurator=1;
+		editorCategory="TFAR";
+		class Attributes;
+	};
 	class B_RadioBag_01_base_F: Bag_Base
 	{
 		tf_dialog="anprc155_radio_dialog"; // Value from TFAR mod
@@ -127,7 +240,9 @@ class CfgVehicles
 		maximumLoad=80; // Value from A3_Supplies_F_Enoch_Bags
 		mass=160; // Value from A3_Supplies_F_Enoch_Bags
 	};
-	class TFAR_anarc164: TFAR_Bag_Base
+
+// AN/ARC-164 (Data\anarc)
+    class TFAR_anarc164: TFAR_Bag_Base
 	{
 		hiddenSelections[]=
 		{
@@ -136,8 +251,65 @@ class CfgVehicles
 		maximumLoad=20; // Value from TFAR mod
 		mass=160; // Value from TFAR mod
 		tf_range=TFR_40K; // Value from TFAR mod
-	}:
-	class TFAR_anarc210: TFAR_Bag_Base
+	};    
+    class TFAR_anarc164_BH: TFAR_anarc164
+    {
+        author="FRXA";
+        scope=2;
+        displayname="Blue Hex [AN/PRC-164]";
+        hiddenSelectionsTextures[]=
+		{
+			"\Command\Command_ReTextures\TFAR\Data\anarc\anarc_BB_co.paa"
+		};
+    };
+    class TFAR_anarc164_PH: TFAR_anarc164_BH
+    {
+        scope=2;
+        displayname="Pink Hex [AN/PRC-164]";
+        hiddenSelectionsTextures[]=
+		{
+			"\Command\Command_ReTextures\TFAR\Data\anarc\anarc_CC_co.paa"
+		};
+    };
+    class TFAR_anarc164_DH: TFAR_anarc164_BH
+    {
+        scope=2;
+        displayname="Desert Hex [AN/PRC-164]";
+        hiddenSelectionsTextures[]=
+		{
+			"\Command\Command_ReTextures\TFAR\Data\anarc\anarc_D_co.paa"
+		};
+    };
+    class TFAR_anarc164_FH: TFAR_anarc164_BH
+    {
+        scope=2;
+        displayname="Field Hex [AN/PRC-164]";
+        hiddenSelectionsTextures[]=
+		{
+			"\Command\Command_ReTextures\TFAR\Data\anarc\anarc_FT_co.paa"
+		};
+    };
+    class TFAR_anarc164_MH: TFAR_anarc164_BH
+    {
+        scope=2;
+        displayname="Multi Hex [AN/PRC-164]";
+        hiddenSelectionsTextures[]=
+		{
+			"\Command\Command_ReTextures\TFAR\Data\anarc\anarc_MTP_co.paa"
+		};
+    };
+    class TFAR_anarc164_WH: TFAR_anarc164_BH
+    {
+        scope=2;
+        displayname="White Hex [AN/PRC-164]";
+        hiddenSelectionsTextures[]=
+		{
+			"\Command\Command_ReTextures\TFAR\Data\anarc\anarc_W_co.paa"
+		};
+    };
+
+// AN/PRC-210 (Data\anarc)
+    class TFAR_anarc210: TFAR_Bag_Base
 	{
 		hiddenSelections[]=
 		{
@@ -146,49 +318,476 @@ class CfgVehicles
 		maximumLoad=20; // Value from TFAR mod
 		mass=160; // Value from TFAR mod
 		tf_range=TFR_40K; // Value from TFAR mod
-	};
-	class TFAR_anprc155: TFAR_Bag_Base
+	};    
+    class TFAR_anarc210_BH: TFAR_anarc210
+    {
+        author="FRXA";
+        scope=2;
+        displayname="Blue Hex [AN/PRC-210]";
+        hiddenSelectionsTextures[]=
+		{
+			"\Command\Command_ReTextures\TFAR\Data\anarc\anarc_BB_co.paa"
+		};
+    };
+    class TFAR_anarc210_PH: TFAR_anarc210_BH
+    {
+        scope=2;
+        displayname="Pink Hex [AN/PRC-210]";
+        hiddenSelectionsTextures[]=
+		{
+			"\Command\Command_ReTextures\TFAR\Data\anarc\anarc_CC_co.paa"
+		};
+    };
+    class TFAR_anarc210_DH: TFAR_anarc210_BH
+    {
+        scope=2;
+        displayname="Desert Hex [AN/PRC-210]";
+        hiddenSelectionsTextures[]=
+		{
+			"\Command\Command_ReTextures\TFAR\Data\anarc\anarc_D_co.paa"
+		};
+    };
+    class TFAR_anarc210_FH: TFAR_anarc210_BH
+    {
+        scope=2;
+        displayname="Field Hex [AN/PRC-210]";
+        hiddenSelectionsTextures[]=
+		{
+			"\Command\Command_ReTextures\TFAR\Data\anarc\anarc_FT_co.paa"
+		};
+    };
+    class TFAR_anarc210_MH: TFAR_anarc210_BH
+    {
+        scope=2;
+        displayname="Multi Hex [AN/PRC-210]";
+        hiddenSelectionsTextures[]=
+		{
+			"\Command\Command_ReTextures\TFAR\Data\anarc\anarc_MTP_co.paa"
+		};
+    };
+    class TFAR_anarc210_WH: TFAR_anarc210_BH
+    {
+        scope=2;
+        displayname="White Hex [AN/PRC-210]";
+        hiddenSelectionsTextures[]=
+		{
+			"\Command\Command_ReTextures\TFAR\Data\anarc\anarc_W_co.paa"
+		};
+    };
+
+// MR-6000L (Data\anarc)
+    class TFAR_mr6000l: TFAR_Bag_Base
 	{
 		hiddenSelections[]=
 		{
 			"camo"
+		};
+		maximumLoad=20; // Value from TFAR mod
+		mass=160; // Value from TFAR mod
+		tf_range=TFR_40K; // Value from TFAR mod
+	};    
+    class TFAR_MR6000L_BH: TFAR_MR6000L
+    {
+        author="FRXA";
+        scope=2;
+        displayname="Blue Hex [MR-6000L]";
+        hiddenSelectionsTextures[]=
+		{
+			"\Command\Command_ReTextures\TFAR\Data\anarc\anarc_BB_co.paa"
+		};
+    };
+    class TFAR_MR6000L_PH: TFAR_MR6000L_BH
+    {
+        scope=2;
+        displayname="Pink Hex [MR-6000L]";
+        hiddenSelectionsTextures[]=
+		{
+			"\Command\Command_ReTextures\TFAR\Data\anarc\anarc_CC_co.paa"
+		};
+    };
+    class TFAR_MR6000L_DH: TFAR_MR6000L_BH
+    {
+        scope=2;
+        displayname="Desert Hex [MR-6000L]";
+        hiddenSelectionsTextures[]=
+		{
+			"\Command\Command_ReTextures\TFAR\Data\anarc\anarc_D_co.paa"
+		};
+    };
+    class TFAR_MR6000L_FH: TFAR_MR6000L_BH
+    {
+        scope=2;
+        displayname="Field Hex [MR-6000L]";
+        hiddenSelectionsTextures[]=
+		{
+			"\Command\Command_ReTextures\TFAR\Data\anarc\anarc_FT_co.paa"
+		};
+    };
+    class TFAR_MR6000L_MH: TFAR_MR6000L_BH
+    {
+        scope=2;
+        displayname="Multi Hex [MR-6000L]";
+        hiddenSelectionsTextures[]=
+		{
+			"\Command\Command_ReTextures\TFAR\Data\anarc\anarc_MTP_co.paa"
+		};
+    };
+    class TFAR_MR6000L_WH: TFAR_MR6000L_BH
+    {
+        scope=2;
+        displayname="White Hex [MR-6000L]";
+        hiddenSelectionsTextures[]=
+		{
+			"\Command\Command_ReTextures\TFAR\Data\anarc\anarc_W_co.paa"
+		};
+    };
+
+// AN/PRC-155 (Data\clf_nicecomm)
+    class TFAR_anprc155: TFAR_Bag_Base
+    {
+        author="FRXA";
+        scope=2;
+        displayname="AAF Digi [AN/PRC-155]";
+        hiddenSelections[]=
+		{
+			"camo"
+		};
+        hiddenSelectionsTextures[]=
+		{
+			"\Command\Command_ReTextures\TFAR\Data\clf_nicecomm\clf_nicecomm2_aff_digital_co.paa"
 		};
 		maximumLoad=160; // Value from TFAR mod
 		mass=160; // Value from TFAR mod
 		tf_range=TFR_20K; // Value from TFAR mod
-	};
-	class TFAR_bussole: TFAR_Bag_Base
-	{
-		hiddenSelections[]=
+    };
+    class TFAR_anprc155_coyote: TFAR_anprc155
+    {
+        scope=2;
+        displayname="Coyote [AN/PRC-155]";
+        hiddenSelectionsTextures[]=
+		{
+			"\Command\Command_ReTextures\TFAR\Data\clf_nicecomm\clf_nicecomm2_coyote_co.paa"
+		};
+    };
+    class TFAR_anprc155_black: TFAR_anprc155
+    {
+        scope=2;
+        displayname="Black [AN/PRC-155]";
+        hiddenSelectionsTextures[]=
+		{
+			"\Command\Command_ReTextures\TFAR\Data\clf_nicecomm\clf_nicecomm2_black_co.paa"
+		};
+    };
+    class TFAR_anprc155_Multitarn: TFAR_anprc155
+    {
+        scope=2;
+        displayname="Multitarn [AN/PRC-155]";
+        hiddenSelectionsTextures[]=
+		{
+			"\Command\Command_ReTextures\TFAR\Data\clf_nicecomm\clf_nicecomm2_bwmod_co.paa"
+		};
+    };
+    class TFAR_anprc155_CSAT: TFAR_anprc155
+    {
+        scope=2;
+        displayname="CSAT [AN/PRC-155]";
+        hiddenSelectionsTextures[]=
+		{
+			"\Command\Command_ReTextures\TFAR\Data\clf_nicecomm\clf_nicecomm2_csat_multi_co.paa"
+		};
+    };
+    class TFAR_anprc155_CTRG: TFAR_anprc155
+    {
+        scope=2;
+        displayname="CTRG [AN/PRC-155]";
+        hiddenSelectionsTextures[]=
+		{
+			"\Command\Command_ReTextures\TFAR\Data\clf_nicecomm\clf_nicecomm2_CTRG_co.paa"
+		};
+    };
+    class TFAR_anprc155_CTRGalt: TFAR_anprc155
+    {
+        scope=2;
+        displayname="CTRG alt [AN/PRC-155]";
+        hiddenSelectionsTextures[]=
+		{
+			"\Command\Command_ReTextures\TFAR\Data\clf_nicecomm\clf_nicecomm2_CTRG_Green_co.paa"
+		};
+    };
+    class TFAR_anprc155_Gray: TFAR_anprc155
+    {
+        scope=2;
+        displayname="Gray [AN/PRC-155]";
+        hiddenSelectionsTextures[]=
+		{
+			"\Command\Command_ReTextures\TFAR\Data\clf_nicecomm\clf_nicecomm2_gray_co.paa"
+		};
+    };
+    class TFAR_anprc155_m81: TFAR_anprc155
+    {
+        scope=2;
+        displayname="M81 [AN/PRC-155]";
+        hiddenSelectionsTextures[]=
+		{
+			"\Command\Command_ReTextures\TFAR\Data\clf_nicecomm\clf_nicecomm2_m81_co.paa"
+		};
+    };
+    class TFAR_anprc155_MARD: TFAR_anprc155
+    {
+        scope=2;
+        displayname="MARPAT D [AN/PRC-155]";
+        hiddenSelectionsTextures[]=
+		{
+			"\Command\Command_ReTextures\TFAR\Data\clf_nicecomm\clf_nicecomm2_MARPAT_Desert_co.paa"
+		};
+    };
+    class TFAR_anprc155_MARW: TFAR_anprc155
+    {
+        scope=2;
+        displayname="MARPAT W [AN/PRC-155]";
+        hiddenSelectionsTextures[]=
+		{
+			"\Command\Command_ReTextures\TFAR\Data\clf_nicecomm\clf_nicecomm2_MARPAT_Woodland_co.paa"
+		};
+    };
+    class TFAR_anprc155_MC: TFAR_anprc155
+    {
+        scope=2;
+        displayname="Multicam [AN/PRC-155]";
+        hiddenSelectionsTextures[]=
+		{
+			"\Command\Command_ReTextures\TFAR\Data\clf_nicecomm\clf_nicecomm2_multi_co.paa"
+		};
+    };
+    class TFAR_anprc155_NATOMC: TFAR_anprc155
+    {
+        scope=2;
+        displayname="NATO Multicam [AN/PRC-155]";
+        hiddenSelectionsTextures[]=
+		{
+			"\Command\Command_ReTextures\TFAR\Data\clf_nicecomm\clf_nicecomm2_nato_multi_co.paa"
+		};
+    };
+    class TFAR_anprc155_RB: TFAR_anprc155
+    {
+        scope=2;
+        displayname="Rainbow [AN/PRC-155]";
+        hiddenSelectionsTextures[]=
+		{
+			"\Command\Command_ReTextures\TFAR\Data\clf_nicecomm\clf_nicecomm2_rainbow_co.paa"
+		};
+    };
+    class TFAR_anprc155_RG: TFAR_anprc155
+    {
+        scope=2;
+        displayname="Ranger Green [AN/PRC-155]";
+        hiddenSelectionsTextures[]=
+		{
+			"\Command\Command_ReTextures\TFAR\Data\clf_nicecomm\clf_nicecomm2_Ranger_Green_co.paa"
+		};
+    };
+    class TFAR_anprc155_RHSMC: TFAR_anprc155
+    {
+        scope=2;
+        displayname="RHS Multicam [AN/PRC-155]";
+        hiddenSelectionsTextures[]=
+		{
+			"\Command\Command_ReTextures\TFAR\Data\clf_nicecomm\clf_nicecomm2_rhs_co.paa"
+		};
+    };
+    class TFAR_anprc155_RHSdigi: TFAR_anprc155
+    {
+        scope=2;
+        displayname="RHS SURPAT [AN/PRC-155]";
+        hiddenSelectionsTextures[]=
+		{
+			"\Command\Command_ReTextures\TFAR\Data\clf_nicecomm\clf_nicecomm2_rhs_digital_co.paa"
+		};
+    };
+    class TFAR_anprc155_RHSUCP: TFAR_anprc155
+    {
+        scope=2;
+        displayname="RHS UCP [AN/PRC-155]";
+        hiddenSelectionsTextures[]=
+		{
+			"\Command\Command_ReTextures\TFAR\Data\clf_nicecomm\clf_nicecomm2_UCP_co.paa"
+		};
+    };
+
+// MR-3000 (Data\clf_nicecomm)
+    class TFAR_MR3000: TFAR_Bag_Base
+    {
+        author="FRXA";
+        scope=2;
+        displayname="CSAT [MR-3000]";
+        hiddenSelections[]=
 		{
 			"camo"
 		};
-		maximumLoad=30; // Value from TFAR mod
-		mass=120; // Value from TFAR mod
-		tf_range=TFR_20K; // Value from TFAR mod
-		model="\Command_ReTextures\TFAR\tf_bussole";
-	};
-	class TFAR_mr3000: TFAR_Bag_Base
-	{
-		hiddenSelections[]=
+        hiddenSelectionsTextures[]=
 		{
-			"camo"
+			"\Command\Command_ReTextures\TFAR\Data\clf_nicecomm\clf_nicecomm2_csat_multi_co.paa"
 		};
-		maximumLoad=160; // Value from TFAR mod
+        maximumLoad=160; // Value from TFAR mod
 		mass=160; // Value from TFAR mod
 		tf_range=TFR_20K; // Value from TFAR mod
-	};
-	class TFAR_mr6000l: TFAR_Bag_Base
-	{
-		hiddenSelections[]=
+    };
+    class TFAR_MR3000_coyote: TFAR_MR3000
+    {
+        scope=2;
+        displayname="Coyote [MR-3000]";
+        hiddenSelectionsTextures[]=
 		{
-			"camo"
+			"\Command\Command_ReTextures\TFAR\Data\clf_nicecomm\clf_nicecomm2_coyote_co.paa"
 		};
-		maximumLoad=20; // Value from TFAR mod
-		mass=160; // Value from TFAR mod
-		tf_range=TFR_40K; // Value from TFAR mod
-	};
-	class TFAR_rt1523g: TFAR_Bag_Base
+    };
+    class TFAR_MR3000_black: TFAR_MR3000
+    {
+        scope=2;
+        displayname="Black [MR-3000]";
+        hiddenSelectionsTextures[]=
+		{
+			"\Command\Command_ReTextures\TFAR\Data\clf_nicecomm\clf_nicecomm2_black_co.paa"
+		};
+    };
+    class TFAR_mr3000_bwmod: TFAR_MR3000
+    {
+        scope=2;
+        displayname="Multitarn [MR-3000]";
+        hiddenSelectionsTextures[]=
+		{
+			"\Command\Command_ReTextures\TFAR\Data\clf_nicecomm\clf_nicecomm2_bwmod_co.paa"
+		};
+    };
+    class TFAR_MR3000_AAF: TFAR_MR3000
+    {
+        scope=2;
+        displayname="AAF Digi [MR-3000]";
+        hiddenSelectionsTextures[]=
+		{
+			"\Command\Command_ReTextures\TFAR\Data\clf_nicecomm\clf_nicecomm2_aff_digital_co.paa"
+		};
+    };
+    class TFAR_MR3000_CTRG: TFAR_MR3000
+    {
+        scope=2;
+        displayname="CTRG [MR-3000]";
+        hiddenSelectionsTextures[]=
+		{
+			"\Command\Command_ReTextures\TFAR\Data\clf_nicecomm\clf_nicecomm2_CTRG_co.paa"
+		};
+    };
+    class TFAR_MR3000_CTRGalt: TFAR_MR3000
+    {
+        scope=2;
+        displayname="CTRG alt [MR-3000]";
+        hiddenSelectionsTextures[]=
+		{
+			"\Command\Command_ReTextures\TFAR\Data\clf_nicecomm\clf_nicecomm2_CTRG_Green_co.paa"
+		};
+    };
+    class TFAR_MR3000_Gray: TFAR_MR3000
+    {
+        scope=2;
+        displayname="Gray [MR-3000]";
+        hiddenSelectionsTextures[]=
+		{
+			"\Command\Command_ReTextures\TFAR\Data\clf_nicecomm\clf_nicecomm2_gray_co.paa"
+		};
+    };
+    class TFAR_MR3000_m81: TFAR_MR3000
+    {
+        scope=2;
+        displayname="M81 [MR-3000]";
+        hiddenSelectionsTextures[]=
+		{
+			"\Command\Command_ReTextures\TFAR\Data\clf_nicecomm\clf_nicecomm2_m81_co.paa"
+		};
+    };
+    class TFAR_MR3000_MARD: TFAR_MR3000
+    {
+        scope=2;
+        displayname="MARPAT D [MR-3000]";
+        hiddenSelectionsTextures[]=
+		{
+			"\Command\Command_ReTextures\TFAR\Data\clf_nicecomm\clf_nicecomm2_MARPAT_Desert_co.paa"
+		};
+    };
+    class TFAR_MR3000_MARW: TFAR_MR3000
+    {
+        scope=2;
+        displayname="MARPAT W [MR-3000]";
+        hiddenSelectionsTextures[]=
+		{
+			"\Command\Command_ReTextures\TFAR\Data\clf_nicecomm\clf_nicecomm2_MARPAT_Woodland_co.paa"
+		};
+    };
+    class TFAR_mr3000_multicam: TFAR_MR3000
+    {
+        scope=2;
+        displayname="Multicam [MR-3000]";
+        hiddenSelectionsTextures[]=
+		{
+			"\Command\Command_ReTextures\TFAR\Data\clf_nicecomm\clf_nicecomm2_multi_co.paa"
+		};
+    };
+    class TFAR_MR3000_NATOMC: TFAR_MR3000
+    {
+        scope=2;
+        displayname="NATO Multicam [MR-3000]";
+        hiddenSelectionsTextures[]=
+		{
+			"\Command\Command_ReTextures\TFAR\Data\clf_nicecomm\clf_nicecomm2_nato_multi_co.paa"
+		};
+    };
+    class TFAR_MR3000_RB: TFAR_MR3000
+    {
+        scope=2;
+        displayname="Rainbow [MR-3000]";
+        hiddenSelectionsTextures[]=
+		{
+			"\Command\Command_ReTextures\TFAR\Data\clf_nicecomm\clf_nicecomm2_rainbow_co.paa"
+		};
+    };
+    class TFAR_MR3000_RG: TFAR_MR3000
+    {
+        scope=2;
+        displayname="Ranger Green [MR-3000]";
+        hiddenSelectionsTextures[]=
+		{
+			"\Command\Command_ReTextures\TFAR\Data\clf_nicecomm\clf_nicecomm2_Ranger_Green_co.paa"
+		};
+    };
+    class TFAR_MR3000_RHSMC: TFAR_MR3000
+    {
+        scope=2;
+        displayname="RHS Multicam [MR-3000]";
+        hiddenSelectionsTextures[]=
+		{
+			"\Command\Command_ReTextures\TFAR\Data\clf_nicecomm\clf_nicecomm2_rhs_co.paa"
+		};
+    };
+    class TFAR_mr3000_rhs: TFAR_MR3000
+    {
+        scope=2;
+        displayname="RHS SURPAT [MR-3000]";
+        hiddenSelectionsTextures[]=
+		{
+			"\Command\Command_ReTextures\TFAR\Data\clf_nicecomm\clf_nicecomm2_rhs_digital_co.paa"
+		};
+    };
+    class TFAR_MR3000_RHSUCP: TFAR_MR3000
+    {
+        scope=2;
+        displayname="RHS UCP [MR-3000]";
+        hiddenSelectionsTextures[]=
+		{
+			"\Command\Command_ReTextures\TFAR\Data\clf_nicecomm\clf_nicecomm2_UCP_co.paa"
+		};
+    };
+
+// RT-152 (Data\clf_prc117g)
+    class TFAR_rt1523g: TFAR_Bag_Base
 	{
 		hiddenSelections[]=
 		{
@@ -198,15 +797,326 @@ class CfgVehicles
 		mass=80; // Value from TFAR mod
 		tf_range=TFR_20K; // Value from TFAR mod
 	};
-	class TFAR_rt1523g_big: TFAR_rt1523g
+    class TFAR_rt1523g_BH: TFAR_rt1523g
+    {
+        author="FRXA";
+        scope=2;
+        displayname="Blue Hex [AN/PRC-117]";
+        hiddenSelectionsTextures[]=
+		{
+			"\Command\Command_ReTextures\TFAR\Data\clf_prc117g\clf_prc117g_BB_co.paa"
+		};
+    };
+    class TFAR_rt1523g_PH: TFAR_rt1523g_BH
+    {
+        scope=2;
+        displayname="Pink Hex [AN/PRC-117]";
+        hiddenSelectionsTextures[]=
+		{
+			"\Command\Command_ReTextures\TFAR\Data\clf_prc117g\clf_prc117g_CC_co.paa"
+		};
+    };
+    class TFAR_rt1523g_DH: TFAR_rt1523g_BH
+    {
+        scope=2;
+        displayname="Desert Hex [AN/PRC-117]";
+        hiddenSelectionsTextures[]=
+		{
+			"\Command\Command_ReTextures\TFAR\Data\clf_prc117g\clf_prc117g_D_co.paa"
+		};
+    };
+    class TFAR_rt1523g_FH: TFAR_rt1523g_BH
+    {
+        scope=2;
+        displayname="Field Hex [AN/PRC-117]";
+        hiddenSelectionsTextures[]=
+		{
+			"\Command\Command_ReTextures\TFAR\Data\clf_prc117g\clf_prc117g_FT_co.paa"
+		};
+    };
+    class TFAR_rt1523g_MH: TFAR_rt1523g_BH
+    {
+        scope=2;
+        displayname="Multi Hex [AN/PRC-117]";
+        hiddenSelectionsTextures[]=
+		{
+			"\Command\Command_ReTextures\TFAR\Data\clf_prc117g\clf_prc117g_MTP_co.paa"
+		};
+    };
+    class TFAR_rt1523g_WH: TFAR_rt1523g_BH
+    {
+        scope=2;
+        displayname="White Hex [AN/PRC-117]";
+        hiddenSelectionsTextures[]=
+		{
+			"\Command\Command_ReTextures\TFAR\Data\clf_prc117g\clf_prc117g_W_co.paa"
+		};
+    };
+    class TFAR_rt1523g_Black: TFAR_rt1523g_BH
+    {
+        scope=2;
+        displayname="Black [AN/PRC-117]";
+        hiddenSelectionsTextures[]=
+		{
+			"\Command\Command_ReTextures\TFAR\Data\clf_prc117g\clf_prc117g_Black_co.paa"
+		};
+    };
+    class TFAR_rt1523g_CTRG: TFAR_rt1523g_BH
+    {
+        scope=2;
+        displayname="CTRG [AN/PRC-117]";
+        hiddenSelectionsTextures[]=
+		{
+			"\Command\Command_ReTextures\TFAR\Data\clf_prc117g\clf_prc117g_CTRG_co.paa"
+		};
+    };
+    class TFAR_rt1523g_CTRGalt: TFAR_rt1523g_BH
+    {
+        scope=2;
+        displayname="CTRG alt [AN/PRC-117]";
+        hiddenSelectionsTextures[]=
+		{
+			"\Command\Command_ReTextures\TFAR\Data\clf_prc117g\clf_prc117g_CTRG_Green_co.paa"
+		};
+    };
+    class TFAR_rt1523g_m81: TFAR_rt1523g_BH
+    {
+        scope=2;
+        displayname="M81 [AN/PRC-117]";
+        hiddenSelectionsTextures[]=
+		{
+			"\Command\Command_ReTextures\TFAR\Data\clf_prc117g\clf_prc117g_m81_co.paa"
+		};
+    };
+    class TFAR_rt1523g_MARD: TFAR_rt1523g_BH
+    {
+        scope=2;
+        displayname="MARPAT D [AN/PRC-117]";
+        hiddenSelectionsTextures[]=
+		{
+			"\Command\Command_ReTextures\TFAR\Data\clf_prc117g\clf_prc117g_MARPAT_Desert_co.paa"
+		};
+    };
+    class TFAR_rt1523g_MARW: TFAR_rt1523g_BH
+    {
+        scope=2;
+        displayname="MARPAT W [AN/PRC-117]";
+        hiddenSelectionsTextures[]=
+		{
+			"\Command\Command_ReTextures\TFAR\Data\clf_prc117g\clf_prc117g_MARPAT_Woodland_co.paa"
+		};
+    };
+    class TFAR_rt1523g_MC: TFAR_rt1523g_BH
+    {
+        scope=2;
+        displayname="Multicam [AN/PRC-117]";
+        hiddenSelectionsTextures[]=
+		{
+			"\Command\Command_ReTextures\TFAR\Data\clf_prc117g\clf_prc117g_MTP_co.paa"
+		};
+    };
+    class TFAR_rt1523g_RG: TFAR_rt1523g_BH
+    {
+        scope=2;
+        displayname="Ranger Green [AN/PRC-117]";
+        hiddenSelectionsTextures[]=
+		{
+			"\Command\Command_ReTextures\TFAR\Data\clf_prc117g\clf_prc117g_Ranger_green_co.paa"
+		};
+    };
+    class TFAR_rt1523g_RHSUCP: TFAR_rt1523g_BH
+    {
+        scope=2;
+        displayname="RHS UCP [AN/PRC-117]";
+        hiddenSelectionsTextures[]=
+		{
+			"\Command\Command_ReTextures\TFAR\Data\clf_prc117g\clf_prc117g_UCP_co.paa"
+		};
+    };
+
+// RT-152 BIG (Data\clf_nicecomm)
+    class TFAR_rt1523g_big: TFAR_rt1523g
+    {
+        author="FRXA";
+        scope=2;
+        displayname="NATO Multicam [AN/PRC-152 BIG]";
+        hiddenSelections[]=
+		{
+			"camo"
+		};
+        hiddenSelectionsTextures[]=
+		{
+			"\Command\Command_ReTextures\TFAR\Data\clf_nicecomm\clf_nicecomm2_nato_multi_co.paa"
+		};
+        maximumLoad=160; // Value from TFAR mod
+		mass=160; // Value from TFAR mod
+		tf_range=TFR_20K; // Value from TFAR mod   
+    };
+    class TFAR_rt1523g_big_coyote: TFAR_rt1523g_big
+    {
+        scope=2;
+        displayname="Coyote [AN/PRC-152 BIG]";
+        hiddenSelectionsTextures[]=
+		{
+			"\Command\Command_ReTextures\TFAR\Data\clf_nicecomm\clf_nicecomm2_coyote_co.paa"
+		};
+    };
+    class TFAR_rt1523g_big_black: TFAR_rt1523g_big
+    {
+        scope=2;
+        displayname="Black [AN/PRC-152 BIG]";
+        hiddenSelectionsTextures[]=
+		{
+			"\Command\Command_ReTextures\TFAR\Data\clf_nicecomm\clf_nicecomm2_black_co.paa"
+		};
+    };
+    class TFAR_rt1523g_big_bwmod: TFAR_rt1523g_big
+    {
+        scope=2;
+        displayname="Multitarn [AN/PRC-152 BIG]";
+        hiddenSelectionsTextures[]=
+		{
+			"\Command\Command_ReTextures\TFAR\Data\clf_nicecomm\clf_nicecomm2_bwmod_co.paa"
+		};
+    };
+    class TFAR_rt1523g_big_CSAT: TFAR_rt1523g_big
+    {
+        scope=2;
+        displayname="CSAT [AN/PRC-152 BIG]";
+        hiddenSelectionsTextures[]=
+		{
+			"\Command\Command_ReTextures\TFAR\Data\clf_nicecomm\clf_nicecomm2_csat_multi_co.paa"
+		};
+    };
+    class TFAR_rt1523g_big_CTRG: TFAR_rt1523g_big
+    {
+        scope=2;
+        displayname="CTRG [AN/PRC-152 BIG]";
+        hiddenSelectionsTextures[]=
+		{
+			"\Command\Command_ReTextures\TFAR\Data\clf_nicecomm\clf_nicecomm2_CTRG_co.paa"
+		};
+    };
+    class TFAR_rt1523g_big_CTRGalt: TFAR_rt1523g_big
+    {
+        scope=2;
+        displayname="CTRG alt [AN/PRC-152 BIG]";
+        hiddenSelectionsTextures[]=
+		{
+			"\Command\Command_ReTextures\TFAR\Data\clf_nicecomm\clf_nicecomm2_CTRG_Green_co.paa"
+		};
+    };
+    class TFAR_rt1523g_big_Gray: TFAR_rt1523g_big
+    {
+        scope=2;
+        displayname="Gray [AN/PRC-152 BIG]";
+        hiddenSelectionsTextures[]=
+		{
+			"\Command\Command_ReTextures\TFAR\Data\clf_nicecomm\clf_nicecomm2_gray_co.paa"
+		};
+    };
+    class TFAR_rt1523g_big_m81: TFAR_rt1523g_big
+    {
+        scope=2;
+        displayname="M81 [AN/PRC-152 BIG]";
+        hiddenSelectionsTextures[]=
+		{
+			"\Command\Command_ReTextures\TFAR\Data\clf_nicecomm\clf_nicecomm2_m81_co.paa"
+		};
+    };
+    class TFAR_rt1523g_big_MARD: TFAR_rt1523g_big
+    {
+        scope=2;
+        displayname="MARPAT D [AN/PRC-152 BIG]";
+        hiddenSelectionsTextures[]=
+		{
+			"\Command\Command_ReTextures\TFAR\Data\clf_nicecomm\clf_nicecomm2_MARPAT_Desert_co.paa"
+		};
+    };
+    class TFAR_rt1523g_big_MARW: TFAR_rt1523g_big
+    {
+        scope=2;
+        displayname="MARPAT W [AN/PRC-152 BIG]";
+        hiddenSelectionsTextures[]=
+		{
+			"\Command\Command_ReTextures\TFAR\Data\clf_nicecomm\clf_nicecomm2_MARPAT_Woodland_co.paa"
+		};
+    };
+    class TFAR_rt1523g_big_MC: TFAR_rt1523g_big
+    {
+        scope=2;
+        displayname="Multicam [AN/PRC-152 BIG]";
+        hiddenSelectionsTextures[]=
+		{
+			"\Command\Command_ReTextures\TFAR\Data\clf_nicecomm\clf_nicecomm2_multi_co.paa"
+		};
+    };
+    class TFAR_rt1523g_big_AAF: TFAR_rt1523g_big
+    {
+        scope=2;
+        displayname="AAF Digi [AN/PRC-152 BIG]";
+        hiddenSelectionsTextures[]=
+		{
+			"\Command\Command_ReTextures\TFAR\Data\clf_nicecomm\clf_nicecomm2_aff_digital_co.paa"
+		};
+    };
+    class TFAR_rt1523g_big_RB: TFAR_rt1523g_big
+    {
+        scope=2;
+        displayname="Rainbow [AN/PRC-152 BIG]";
+        hiddenSelectionsTextures[]=
+		{
+			"\Command\Command_ReTextures\TFAR\Data\clf_nicecomm\clf_nicecomm2_rainbow_co.paa"
+		};
+    };
+    class TFAR_rt1523g_big_RG: TFAR_rt1523g_big
+    {
+        scope=2;
+        displayname="Ranger Green [AN/PRC-152 BIG]";
+        hiddenSelectionsTextures[]=
+		{
+			"\Command\Command_ReTextures\TFAR\Data\clf_nicecomm\clf_nicecomm2_Ranger_Green_co.paa"
+		};
+    };
+    class TFAR_rt1523g_big_rhs: TFAR_rt1523g_big
+    {
+        scope=2;
+        displayname="RHS Multicam [AN/PRC-152 BIG]";
+        hiddenSelectionsTextures[]=
+		{
+			"\Command\Command_ReTextures\TFAR\Data\clf_nicecomm\clf_nicecomm2_rhs_co.paa"
+		};
+    };
+    class TFAR_rt1523g_big_RHSdigi: TFAR_rt1523g_big
+    {
+        scope=2;
+        displayname="RHS SURPAT [AN/PRC-152 BIG]";
+        hiddenSelectionsTextures[]=
+		{
+			"\Command\Command_ReTextures\TFAR\Data\clf_nicecomm\clf_nicecomm2_rhs_digital_co.paa"
+		};
+    };
+    class TFAR_rt1523g_big_RHSUCP: TFAR_rt1523g_big
+    {
+        scope=2;
+        displayname="RHS UCP [AN/PRC-152 BIG]";
+        hiddenSelectionsTextures[]=
+		{
+			"\Command\Command_ReTextures\TFAR\Data\clf_nicecomm\clf_nicecomm2_UCP_co.paa"
+		};
+    };
+
+// Bussole
+    class TFAR_bussole: TFAR_Bag_Base
 	{
 		hiddenSelections[]=
 		{
 			"camo"
 		};
-		maximumLoad=160; // Value from TFAR mod
-		mass=160; // Value from TFAR mod
+		maximumLoad=30; // Value from TFAR mod
+		mass=120; // Value from TFAR mod
 		tf_range=TFR_20K; // Value from TFAR mod
+		model="\Command\Command_ReTextures\TFAR\tf_bussole";
 	};
 
 // Command
@@ -217,7 +1127,7 @@ class CfgVehicles
         displayname="[CMD] Medic-Lead [AN/PRC-155]";
         hiddenSelectionsTextures[]=
 		{
-			"Command_ReTextures\TFAR\Command_Data\anprc155_Medic_co.paa"
+			"\Command\Command_ReTextures\TFAR\Command_Data\anprc155_Medic_co.paa"
 		};
         maximumLoad=CMD_OP_Load;
 		tf_dialog=TFR_DG_MR3;
@@ -225,6 +1135,55 @@ class CfgVehicles
         tf_range=TFR_40K;
         tf_subtype=TFR_SB_DG;
 	};
+    class CMD_TFAR_anprc155_Platoon: CMD_TFAR_anprc155_Medic
+    {
+        displayname="[CMD] Platoon [AN/PRC-155]";
+        hiddenSelectionsTextures[]=
+        {
+            "\Command\Command_ReTextures\TFAR\Command_Data\anprc155_Platoon_co.paa"
+        };
+        maximumLoad=CMD_HIGH_Load;
+    };
+    class CMD_TFAR_anprc155_Command: CMD_TFAR_anprc155_Platoon
+    {
+        displayname="[CMD] Command [AN/PRC-155]";
+        hiddenSelectionsTextures[]=
+        {
+            "\Command\Command_ReTextures\TFAR\Command_Data\anprc155_Command_co.paa"
+        };
+    };
+    class CMD_TFAR_anprc155_Haven: CMD_TFAR_anprc155_Platoon
+    {
+        displayname="[CMD] Haven [AN/PRC-155]";
+        hiddenSelectionsTextures[]=
+        {
+            "\Command\Command_ReTextures\TFAR\Command_Data\anprc155_Haven_co.paa"
+        };
+    };
+    class CMD_TFAR_anprc155_Bastion: CMD_TFAR_anprc155_Platoon
+    {
+        displayname="[CMD] Bastion [AN/PRC-155]";
+        hiddenSelectionsTextures[]=
+        {
+            "\Command\Command_ReTextures\TFAR\Command_Data\anprc155_Bastion_co.paa"
+        };
+    };
+    class CMD_TFAR_anprc155_Gator: CMD_TFAR_anprc155_Platoon
+    {
+        displayname="[CMD] Gator [AN/PRC-155]";
+        hiddenSelectionsTextures[]=
+        {
+            "\Command\Command_ReTextures\TFAR\Command_Data\anprc155_Gator_co.paa"
+        };
+    };
+    class CMD_TFAR_anprc155_Fox: CMD_TFAR_anprc155_Platoon
+    {
+        displayname="[CMD] Fox [AN/PRC-155]";
+        hiddenSelectionsTextures[]=
+        {
+            "\Command\Command_ReTextures\TFAR\Command_Data\anprc155_Fox_co.paa"
+        };
+    };
 	class CMD_B_RadioBag_01_Medic_F: B_RadioBag_01_base_F
 	{ 
         author="Kavik";
@@ -232,7 +1191,7 @@ class CfgVehicles
         displayname="[CMD] Medic-Lead [AN/PRC-117G]";
         hiddenSelectionsTextures[]=
         {
-            "Command_ReTextures\TFAR\Command_Data\medic_radiobag1_co.paa"
+            "\Command\Command_ReTextures\TFAR\Command_Data\medic_radiobag1_co.paa"
         };
 		maximumLoad=CMD_OP_Load;
 		tf_dialog=TFR_DG_MR3;
@@ -240,808 +1199,37 @@ class CfgVehicles
         tf_range=TFR_40K;
         tf_subtype=TFR_SB_DG;
 	};
-
-// AN/ARC-164 (Data\anarc)
-    class TFAR_anarc164_BH: TFAR_anarc164
-    {
-        author="FRXA";
-        scope=2;
-        displayname="Blue Hex [AN/PRC-164]";
-        hiddenSelectionsTextures[]=
-		{
-			"Command_ReTextures\TFAR\Data\anarc\anarc_BB.paa"
-		};
-    };
-    class TFAR_anarc164_PH: TFAR_anarc164_BH
-    {
-        scope=2;
-        displayname="Pink Hex [AN/PRC-164]";
-        hiddenSelectionsTextures[]=
-		{
-			"Command_ReTextures\TFAR\Data\anarc\anarc_CC.paa"
-		};
-    };
-    class TFAR_anarc164_DH: TFAR_anarc164_BH
-    {
-        scope=2;
-        displayname="Desert Hex [AN/PRC-164]";
-        hiddenSelectionsTextures[]=
-		{
-			"Command_ReTextures\TFAR\Data\anarc\anarc_D.paa"
-		};
-    };
-    class TFAR_anarc164_FH: TFAR_anarc164_BH
-    {
-        scope=2;
-        displayname="Field Hex [AN/PRC-164]";
-        hiddenSelectionsTextures[]=
-		{
-			"Command_ReTextures\TFAR\Data\anarc\anarc_FT.paa"
-		};
-    };
-    class TFAR_anarc164_MH: TFAR_anarc164_BH
-    {
-        scope=2;
-        displayname="Multi Hex [AN/PRC-164]";
-        hiddenSelectionsTextures[]=
-		{
-			"Command_ReTextures\TFAR\Data\anarc\anarc_MTP.paa"
-		};
-    };
-    class TFAR_anarc164_WH: TFAR_anarc164_BH
-    {
-        scope=2;
-        displayname="White Hex [AN/PRC-164]";
-        hiddenSelectionsTextures[]=
-		{
-			"Command_ReTextures\TFAR\Data\anarc\anarc_W.paa"
-		};
-    };
-
-// AN/PRC-210 (Data\anarc)
-    class TFAR_anarc210_BH: TFAR_anarc210
-    {
-        author="FRXA";
-        scope=2;
-        displayname="Blue Hex [AN/PRC-210]";
-        hiddenSelectionsTextures[]=
-		{
-			"Command_ReTextures\TFAR\Data\anarc\anarc_BB.paa"
-		};
-    };
-    class TFAR_anarc210_PH: TFAR_anarc210_BH
-    {
-        scope=2;
-        displayname="Pink Hex [AN/PRC-210]";
-        hiddenSelectionsTextures[]=
-		{
-			"Command_ReTextures\TFAR\Data\anarc\anarc_CC.paa"
-		};
-    };
-    class TFAR_anarc210_DH: TFAR_anarc210_BH
-    {
-        scope=2;
-        displayname="Desert Hex [AN/PRC-210]";
-        hiddenSelectionsTextures[]=
-		{
-			"Command_ReTextures\TFAR\Data\anarc\anarc_D.paa"
-		};
-    };
-    class TFAR_anarc210_FH: TFAR_anarc210_BH
-    {
-        scope=2;
-        displayname="Field Hex [AN/PRC-210]";
-        hiddenSelectionsTextures[]=
-		{
-			"Command_ReTextures\TFAR\Data\anarc\anarc_FT.paa"
-		};
-    };
-    class TFAR_anarc210_MH: TFAR_anarc210_BH
-    {
-        scope=2;
-        displayname="Multi Hex [AN/PRC-210]";
-        hiddenSelectionsTextures[]=
-		{
-			"Command_ReTextures\TFAR\Data\anarc\anarc_MTP.paa"
-		};
-    };
-    class TFAR_anarc210_WH: TFAR_anarc210_BH
-    {
-        scope=2;
-        displayname="White Hex [AN/PRC-210]";
-        hiddenSelectionsTextures[]=
-		{
-			"Command_ReTextures\TFAR\Data\anarc\anarc_W.paa"
-		};
-    };
-
-// MR-6000L (Data\anarc)
-    class TFAR_MR6000L_BH: TFAR_MR6000L
-    {
-        author="FRXA";
-        scope=2;
-        displayname="Blue Hex [MR-6000L]";
-        hiddenSelectionsTextures[]=
-		{
-			"Command_ReTextures\TFAR\Data\anarc\anarc_BB.paa"
-		};
-    };
-    class TFAR_MR6000L_PH: TFAR_MR6000L_BH
-    {
-        scope=2;
-        displayname="Pink Hex [MR-6000L]";
-        hiddenSelectionsTextures[]=
-		{
-			"Command_ReTextures\TFAR\Data\anarc\anarc_CC.paa"
-		};
-    };
-    class TFAR_MR6000L_DH: TFAR_MR6000L_BH
-    {
-        scope=2;
-        displayname="Desert Hex [MR-6000L]";
-        hiddenSelectionsTextures[]=
-		{
-			"Command_ReTextures\TFAR\Data\anarc\anarc_D.paa"
-		};
-    };
-    class TFAR_MR6000L_FH: TFAR_MR6000L_BH
-    {
-        scope=2;
-        displayname="Field Hex [MR-6000L]";
-        hiddenSelectionsTextures[]=
-		{
-			"Command_ReTextures\TFAR\Data\anarc\anarc_FT.paa"
-		};
-    };
-    class TFAR_MR6000L_MH: TFAR_MR6000L_BH
-    {
-        scope=2;
-        displayname="Multi Hex [MR-6000L]";
-        hiddenSelectionsTextures[]=
-		{
-			"Command_ReTextures\TFAR\Data\anarc\anarc_MTP.paa"
-		};
-    };
-    class TFAR_MR6000L_WH: TFAR_MR6000L_BH
-    {
-        scope=2;
-        displayname="White Hex [MR-6000L]";
-        hiddenSelectionsTextures[]=
-		{
-			"Command_ReTextures\TFAR\Data\anarc\anarc_W.paa"
-		};
-    };
-
-// AN/PRC-155 (Data\clf_nicecomm)
-    class TFAR_anprc155: TFAR_Bag_Base
-    {
-        author="FRXA";
-        scope=2;
-        displayname="AAF Digi [AN/PRC-155]";
-        hiddenSelectionsTextures[]=
-		{
-			"Command_ReTextures\TFAR\Data\clf_nicecomm\clf_nicecomm2_aff_digital_co.paa"
-		};
-    };
-    class TFAR_anprc155_coyote: TFAR_anprc155
-    {
-        scope=2;
-        displayname="Coyote [AN/PRC-155]";
-        hiddenSelectionsTextures[]=
-		{
-			"Command_ReTextures\TFAR\Data\clf_nicecomm\clf_nicecomm2_coyote_co.paa"
-		};
-    };
-    class TFAR_anprc155_black: TFAR_anprc155
-    {
-        scope=2;
-        displayname="Black [AN/PRC-155]";
-        hiddenSelectionsTextures[]=
-		{
-			"Command_ReTextures\TFAR\Data\clf_nicecomm\clf_nicecomm2_black_co.paa"
-		};
-    };
-    class TFAR_anprc155_Multitarn: TFAR_anprc155
-    {
-        scope=2;
-        displayname="Multitarn [AN/PRC-155]";
-        hiddenSelectionsTextures[]=
-		{
-			"Command_ReTextures\TFAR\Data\clf_nicecomm\clf_nicecomm2_bwmod_co.paa"
-		};
-    };
-    class TFAR_anprc155_CSAT: TFAR_anprc155
-    {
-        scope=2;
-        displayname="CSAT [AN/PRC-155]";
-        hiddenSelectionsTextures[]=
-		{
-			"Command_ReTextures\TFAR\Data\clf_nicecomm\clf_nicecomm2_csat_multi_co.paa"
-		};
-    };
-    class TFAR_anprc155_CTRG: TFAR_anprc155
-    {
-        scope=2;
-        displayname="CTRG [AN/PRC-155]";
-        hiddenSelectionsTextures[]=
-		{
-			"Command_ReTextures\TFAR\Data\clf_nicecomm\clf_nicecomm2_CTRG_co.paa"
-		};
-    };
-    class TFAR_anprc155_CTRGalt: TFAR_anprc155
-    {
-        scope=2;
-        displayname="CTRG alt [AN/PRC-155]";
-        hiddenSelectionsTextures[]=
-		{
-			"Command_ReTextures\TFAR\Data\clf_nicecomm\clf_nicecomm2_CTRG_Green_co.paa"
-		};
-    };
-    class TFAR_anprc155_Gray: TFAR_anprc155
-    {
-        scope=2;
-        displayname="Gray [AN/PRC-155]";
-        hiddenSelectionsTextures[]=
-		{
-			"Command_ReTextures\TFAR\Data\clf_nicecomm\clf_nicecomm2_gray_co.paa"
-		};
-    };
-    class TFAR_anprc155_m81: TFAR_anprc155
-    {
-        scope=2;
-        displayname="M81 [AN/PRC-155]";
-        hiddenSelectionsTextures[]=
-		{
-			"Command_ReTextures\TFAR\Data\clf_nicecomm\clf_nicecomm2_m81_co.paa"
-		};
-    };
-    class TFAR_anprc155_MARD: TFAR_anprc155
-    {
-        scope=2;
-        displayname="MARPAT D [AN/PRC-155]";
-        hiddenSelectionsTextures[]=
-		{
-			"Command_ReTextures\TFAR\Data\clf_nicecomm\clf_nicecomm2_MARPAT_Desert_co.paa"
-		};
-    };
-    class TFAR_anprc155_MARW: TFAR_anprc155
-    {
-        scope=2;
-        displayname="MARPAT W [AN/PRC-155]";
-        hiddenSelectionsTextures[]=
-		{
-			"Command_ReTextures\TFAR\Data\clf_nicecomm\clf_nicecomm2_MARPAT_Woodland_co.paa"
-		};
-    };
-    class TFAR_anprc155_MC: TFAR_anprc155
-    {
-        scope=2;
-        displayname="Multicam [AN/PRC-155]";
-        hiddenSelectionsTextures[]=
-		{
-			"Command_ReTextures\TFAR\Data\clf_nicecomm\clf_nicecomm2_multi_co.paa"
-		};
-    };
-    class TFAR_anprc155_NATOMC: TFAR_anprc155
-    {
-        scope=2;
-        displayname="NATO Multicam [AN/PRC-155]";
-        hiddenSelectionsTextures[]=
-		{
-			"Command_ReTextures\TFAR\Data\clf_nicecomm\clf_nicecomm2_nato_multi_co.paa"
-		};
-    };
-    class TFAR_anprc155_RB: TFAR_anprc155
-    {
-        scope=2;
-        displayname="Rainbow [AN/PRC-155]";
-        hiddenSelectionsTextures[]=
-		{
-			"Command_ReTextures\TFAR\Data\clf_nicecomm\clf_nicecomm2_rainbow_co.paa"
-		};
-    };
-    class TFAR_anprc155_RG: TFAR_anprc155
-    {
-        scope=2;
-        displayname="Ranger Green [AN/PRC-155]";
-        hiddenSelectionsTextures[]=
-		{
-			"Command_ReTextures\TFAR\Data\clf_nicecomm\clf_nicecomm2_Ranger_Green_co.paa"
-		};
-    };
-    class TFAR_anprc155_RHSMC: TFAR_anprc155
-    {
-        scope=2;
-        displayname="RHS Multicam [AN/PRC-155]";
-        hiddenSelectionsTextures[]=
-		{
-			"Command_ReTextures\TFAR\Data\clf_nicecomm\clf_nicecomm2_rhs_co.paa"
-		};
-    };
-    class TFAR_anprc155_RHSdigi: TFAR_anprc155
-    {
-        scope=2;
-        displayname="RHS SURPAT [AN/PRC-155]";
-        hiddenSelectionsTextures[]=
-		{
-			"Command_ReTextures\TFAR\Data\clf_nicecomm\clf_nicecomm2_rhs_digital_co.paa"
-		};
-    };
-    class TFAR_anprc155_RHSUCP: TFAR_anprc155
-    {
-        scope=2;
-        displayname="RHS UCP [AN/PRC-155]";
-        hiddenSelectionsTextures[]=
-		{
-			"Command_ReTextures\TFAR\Data\clf_nicecomm\clf_nicecomm2_UCP_co.paa"
-		};
-    };
-
-// MR-3000 (Data\clf_nicecomm)
-    class TFAR_MR3000: TFAR_Bag_Base
-    {
-        author="FRXA";
-        scope=2;
-        displayname="CSAT [MR-3000]";
-        hiddenSelectionsTextures[]=
-		{
-			"Command_ReTextures\TFAR\Data\clf_nicecomm\clf_nicecomm2_csat_multi_co.paa"
-		};
-    };
-    class TFAR_MR3000_coyote: TFAR_MR3000
-    {
-        scope=2;
-        displayname="Coyote [MR-3000]";
-        hiddenSelectionsTextures[]=
-		{
-			"Command_ReTextures\TFAR\Data\clf_nicecomm\clf_nicecomm2_coyote_co.paa"
-		};
-    };
-    class TFAR_MR3000_black: TFAR_MR3000
-    {
-        scope=2;
-        displayname="Black [MR-3000]";
-        hiddenSelectionsTextures[]=
-		{
-			"Command_ReTextures\TFAR\Data\clf_nicecomm\clf_nicecomm2_black_co.paa"
-		};
-    };
-    class TFAR_mr3000_bwmod: TFAR_MR3000
-    {
-        scope=2;
-        displayname="Multitarn [MR-3000]";
-        hiddenSelectionsTextures[]=
-		{
-			"Command_ReTextures\TFAR\Data\clf_nicecomm\clf_nicecomm2_bwmod_co.paa"
-		};
-    };
-    class TFAR_MR3000_AAF: TFAR_MR3000
-    {
-        scope=2;
-        displayname="AAF Digi [MR-3000]";
-        hiddenSelectionsTextures[]=
-		{
-			"Command_ReTextures\TFAR\Data\clf_nicecomm\clf_nicecomm2_aff_digital_co.paa"
-		};
-    };
-    class TFAR_MR3000_CTRG: TFAR_MR3000
-    {
-        scope=2;
-        displayname="CTRG [MR-3000]";
-        hiddenSelectionsTextures[]=
-		{
-			"Command_ReTextures\TFAR\Data\clf_nicecomm\clf_nicecomm2_CTRG_co.paa"
-		};
-    };
-    class TFAR_MR3000_CTRGalt: TFAR_MR3000
-    {
-        scope=2;
-        displayname="CTRG alt [MR-3000]";
-        hiddenSelectionsTextures[]=
-		{
-			"Command_ReTextures\TFAR\Data\clf_nicecomm\clf_nicecomm2_CTRG_Green_co.paa"
-		};
-    };
-    class TFAR_MR3000_Gray: TFAR_MR3000
-    {
-        scope=2;
-        displayname="Gray [MR-3000]";
-        hiddenSelectionsTextures[]=
-		{
-			"Command_ReTextures\TFAR\Data\clf_nicecomm\clf_nicecomm2_gray_co.paa"
-		};
-    };
-    class TFAR_MR3000_m81: TFAR_MR3000
-    {
-        scope=2;
-        displayname="M81 [MR-3000]";
-        hiddenSelectionsTextures[]=
-		{
-			"Command_ReTextures\TFAR\Data\clf_nicecomm\clf_nicecomm2_m81_co.paa"
-		};
-    };
-    class TFAR_MR3000_MARD: TFAR_MR3000
-    {
-        scope=2;
-        displayname="MARPAT D [MR-3000]";
-        hiddenSelectionsTextures[]=
-		{
-			"Command_ReTextures\TFAR\Data\clf_nicecomm\clf_nicecomm2_MARPAT_Desert_co.paa"
-		};
-    };
-    class TFAR_MR3000_MARW: TFAR_MR3000
-    {
-        scope=2;
-        displayname="MARPAT W [MR-3000]";
-        hiddenSelectionsTextures[]=
-		{
-			"Command_ReTextures\TFAR\Data\clf_nicecomm\clf_nicecomm2_MARPAT_Woodland_co.paa"
-		};
-    };
-    class TFAR_mr3000_multicam: TFAR_MR3000
-    {
-        scope=2;
-        displayname="Multicam [MR-3000]";
-        hiddenSelectionsTextures[]=
-		{
-			"Command_ReTextures\TFAR\Data\clf_nicecomm\clf_nicecomm2_multi_co.paa"
-		};
-    };
-    class TFAR_MR3000_NATOMC: TFAR_MR3000
-    {
-        scope=2;
-        displayname="NATO Multicam [MR-3000]";
-        hiddenSelectionsTextures[]=
-		{
-			"Command_ReTextures\TFAR\Data\clf_nicecomm\clf_nicecomm2_nato_multi_co.paa"
-		};
-    };
-    class TFAR_MR3000_RB: TFAR_MR3000
-    {
-        scope=2;
-        displayname="Rainbow [MR-3000]";
-        hiddenSelectionsTextures[]=
-		{
-			"Command_ReTextures\TFAR\Data\clf_nicecomm\clf_nicecomm2_rainbow_co.paa"
-		};
-    };
-    class TFAR_MR3000_RG: TFAR_MR3000
-    {
-        scope=2;
-        displayname="Ranger Green [MR-3000]";
-        hiddenSelectionsTextures[]=
-		{
-			"Command_ReTextures\TFAR\Data\clf_nicecomm\clf_nicecomm2_Ranger_Green_co.paa"
-		};
-    };
-    class TFAR_MR3000_RHSMC: TFAR_MR3000
-    {
-        scope=2;
-        displayname="RHS Multicam [MR-3000]";
-        hiddenSelectionsTextures[]=
-		{
-			"Command_ReTextures\TFAR\Data\clf_nicecomm\clf_nicecomm2_rhs_co.paa"
-		};
-    };
-    class TFAR_mr3000_rhs: TFAR_MR3000
-    {
-        scope=2;
-        displayname="RHS SURPAT [MR-3000]";
-        hiddenSelectionsTextures[]=
-		{
-			"Command_ReTextures\TFAR\Data\clf_nicecomm\clf_nicecomm2_rhs_digital_co.paa"
-		};
-    };
-    class TFAR_MR3000_RHSUCP: TFAR_MR3000
-    {
-        scope=2;
-        displayname="RHS UCP [MR-3000]";
-        hiddenSelectionsTextures[]=
-		{
-			"Command_ReTextures\TFAR\Data\clf_nicecomm\clf_nicecomm2_UCP_co.paa"
-		};
-    };
-
-// RT-152 BIG (Data\clf_nicecomm)
-    class TFAR_rt1523g_big: TFAR_Bag_Base
-    {
-        author="FRXA";
-        scope=2;
-        displayname="NATO Multicam [AN/PRC-152 BIG]";
-        hiddenSelectionsTextures[]=
-		{
-			"Command_ReTextures\TFAR\Data\clf_nicecomm\clf_nicecomm2_nato_multi_co.paa"
-		};       
-    };
-    class TFAR_rt1523g_big_coyote: TFAR_rt1523g_big
-    {
-        scope=2;
-        displayname="Coyote [AN/PRC-152 BIG]";
-        hiddenSelectionsTextures[]=
-		{
-			"Command_ReTextures\TFAR\Data\clf_nicecomm\clf_nicecomm2_coyote_co.paa"
-		};
-    };
-    class TFAR_rt1523g_big_black: TFAR_rt1523g_big
-    {
-        scope=2;
-        displayname="Black [AN/PRC-152 BIG]";
-        hiddenSelectionsTextures[]=
-		{
-			"Command_ReTextures\TFAR\Data\clf_nicecomm\clf_nicecomm2_black_co.paa"
-		};
-    };
-    class TFAR_rt1523g_big_bwmod: TFAR_rt1523g_big
-    {
-        scope=2;
-        displayname="Multitarn [AN/PRC-152 BIG]";
-        hiddenSelectionsTextures[]=
-		{
-			"Command_ReTextures\TFAR\Data\clf_nicecomm\clf_nicecomm2_bwmod_co.paa"
-		};
-    };
-    class TFAR_rt1523g_big_CSAT: TFAR_rt1523g_big
-    {
-        scope=2;
-        displayname="CSAT [AN/PRC-152 BIG]";
-        hiddenSelectionsTextures[]=
-		{
-			"Command_ReTextures\TFAR\Data\clf_nicecomm\clf_nicecomm2_csat_multi_co.paa"
-		};
-    };
-    class TFAR_rt1523g_big_CTRG: TFAR_rt1523g_big
-    {
-        scope=2;
-        displayname="CTRG [AN/PRC-152 BIG]";
-        hiddenSelectionsTextures[]=
-		{
-			"Command_ReTextures\TFAR\Data\clf_nicecomm\clf_nicecomm2_CTRG_co.paa"
-		};
-    };
-    class TFAR_rt1523g_big_CTRGalt: TFAR_rt1523g_big
-    {
-        scope=2;
-        displayname="CTRG alt [AN/PRC-152 BIG]";
-        hiddenSelectionsTextures[]=
-		{
-			"Command_ReTextures\TFAR\Data\clf_nicecomm\clf_nicecomm2_CTRG_Green_co.paa"
-		};
-    };
-    class TFAR_rt1523g_big_Gray: TFAR_rt1523g_big
-    {
-        scope=2;
-        displayname="Gray [AN/PRC-152 BIG]";
-        hiddenSelectionsTextures[]=
-		{
-			"Command_ReTextures\TFAR\Data\clf_nicecomm\clf_nicecomm2_gray_co.paa"
-		};
-    };
-    class TFAR_rt1523g_big_m81: TFAR_rt1523g_big
-    {
-        scope=2;
-        displayname="M81 [AN/PRC-152 BIG]";
-        hiddenSelectionsTextures[]=
-		{
-			"Command_ReTextures\TFAR\Data\clf_nicecomm\clf_nicecomm2_m81_co.paa"
-		};
-    };
-    class TFAR_rt1523g_big_MARD: TFAR_rt1523g_big
-    {
-        scope=2;
-        displayname="MARPAT D [AN/PRC-152 BIG]";
-        hiddenSelectionsTextures[]=
-		{
-			"Command_ReTextures\TFAR\Data\clf_nicecomm\clf_nicecomm2_MARPAT_Desert_co.paa"
-		};
-    };
-    class TFAR_rt1523g_big_MARW: TFAR_rt1523g_big
-    {
-        scope=2;
-        displayname="MARPAT W [AN/PRC-152 BIG]";
-        hiddenSelectionsTextures[]=
-		{
-			"Command_ReTextures\TFAR\Data\clf_nicecomm\clf_nicecomm2_MARPAT_Woodland_co.paa"
-		};
-    };
-    class TFAR_rt1523g_big_MC: TFAR_rt1523g_big
-    {
-        scope=2;
-        displayname="Multicam [AN/PRC-152 BIG]";
-        hiddenSelectionsTextures[]=
-		{
-			"Command_ReTextures\TFAR\Data\clf_nicecomm\clf_nicecomm2_multi_co.paa"
-		};
-    };
-    class TFAR_rt1523g_big_AAF: TFAR_rt1523g_big
-    {
-        scope=2;
-        displayname="AAF Digi [AN/PRC-152 BIG]";
-        hiddenSelectionsTextures[]=
-		{
-			"Command_ReTextures\TFAR\Data\clf_nicecomm\clf_nicecomm2_aff_digital_co.paa"
-		};
-    };
-    class TFAR_rt1523g_big_RB: TFAR_rt1523g_big
-    {
-        scope=2;
-        displayname="Rainbow [AN/PRC-152 BIG]";
-        hiddenSelectionsTextures[]=
-		{
-			"Command_ReTextures\TFAR\Data\clf_nicecomm\clf_nicecomm2_rainbow_co.paa"
-		};
-    };
-    class TFAR_rt1523g_big_RG: TFAR_rt1523g_big
-    {
-        scope=2;
-        displayname="Ranger Green [AN/PRC-152 BIG]";
-        hiddenSelectionsTextures[]=
-		{
-			"Command_ReTextures\TFAR\Data\clf_nicecomm\clf_nicecomm2_Ranger_Green_co.paa"
-		};
-    };
-    class TFAR_rt1523g_big_rhs: TFAR_rt1523g_big
-    {
-        scope=2;
-        displayname="RHS Multicam [AN/PRC-152 BIG]";
-        hiddenSelectionsTextures[]=
-		{
-			"Command_ReTextures\TFAR\Data\clf_nicecomm\clf_nicecomm2_rhs_co.paa"
-		};
-    };
-    class TFAR_rt1523g_big_RHSdigi: TFAR_rt1523g_big
-    {
-        scope=2;
-        displayname="RHS SURPAT [AN/PRC-152 BIG]";
-        hiddenSelectionsTextures[]=
-		{
-			"Command_ReTextures\TFAR\Data\clf_nicecomm\clf_nicecomm2_rhs_digital_co.paa"
-		};
-    };
-    class TFAR_rt1523g_big_RHSUCP: TFAR_rt1523g_big
-    {
-        scope=2;
-        displayname="RHS UCP [AN/PRC-152 BIG]";
-        hiddenSelectionsTextures[]=
-		{
-			"Command_ReTextures\TFAR\Data\clf_nicecomm\clf_nicecomm2_UCP_co.paa"
-		};
-    };
-
-// RT-152 (Data\clf_prc117g)
-    class TFAR_rt1523g_BH: TFAR_rt1523g
-    {
-        author="FRXA";
-        scope=2;
-        displayname="Blue Hex [AN/PRC-117]";
-        hiddenSelectionsTextures[]=
-		{
-			"Command_ReTextures\TFAR\Data\clf_prc117g\clf_prc117g_BB.paa"
-		};
-    };
-    class TFAR_rt1523g_PH: TFAR_rt1523g_BH
-    {
-        scope=2;
-        displayname="Pink Hex [AN/PRC-117]";
-        hiddenSelectionsTextures[]=
-		{
-			"Command_ReTextures\TFAR\Data\clf_prc117g\clf_prc117g_CC.paa"
-		};
-    };
-    class TFAR_rt1523g_DH: TFAR_rt1523g_BH
-    {
-        scope=2;
-        displayname="Desert Hex [AN/PRC-117]";
-        hiddenSelectionsTextures[]=
-		{
-			"Command_ReTextures\TFAR\Data\clf_prc117g\clf_prc117g_D.paa"
-		};
-    };
-    class TFAR_rt1523g_FH: TFAR_rt1523g_BH
-    {
-        scope=2;
-        displayname="Field Hex [AN/PRC-117]";
-        hiddenSelectionsTextures[]=
-		{
-			"Command_ReTextures\TFAR\Data\clf_prc117g\clf_prc117g_FT.paa"
-		};
-    };
-    class TFAR_rt1523g_MH: TFAR_rt1523g_BH
-    {
-        scope=2;
-        displayname="Multi Hex [AN/PRC-117]";
-        hiddenSelectionsTextures[]=
-		{
-			"Command_ReTextures\TFAR\Data\clf_prc117g\clf_prc117g_MTP.paa"
-		};
-    };
-    class TFAR_rt1523g_WH: TFAR_rt1523g_BH
-    {
-        scope=2;
-        displayname="White Hex [AN/PRC-117]";
-        hiddenSelectionsTextures[]=
-		{
-			"Command_ReTextures\TFAR\Data\clf_prc117g\clf_prc117g_W.paa"
-		};
-    };
-    class TFAR_rt1523g_Black: TFAR_rt1523g_BH
-    {
-        scope=2;
-        displayname="Black [AN/PRC-117]";
-        hiddenSelectionsTextures[]=
-		{
-			"Command_ReTextures\TFAR\Data\clf_prc117g\clf_prc117g_Black_co.paa"
-		};
-    };
-    class TFAR_rt1523g_CTRG: TFAR_rt1523g_BH
-    {
-        scope=2;
-        displayname="CTRG [AN/PRC-117]";
-        hiddenSelectionsTextures[]=
-		{
-			"Command_ReTextures\TFAR\Data\clf_prc117g\clf_prc117g_CTRG_co.paa"
-		};
-    };
-    class TFAR_rt1523g_CTRGalt: TFAR_rt1523g_BH
-    {
-        scope=2;
-        displayname="CTRG alt [AN/PRC-117]";
-        hiddenSelectionsTextures[]=
-		{
-			"Command_ReTextures\TFAR\Data\clf_prc117g\clf_prc117g_CTRG_Green_co.paa"
-		};
-    };
-    class TFAR_rt1523g_m81: TFAR_rt1523g_BH
-    {
-        scope=2;
-        displayname="M81 [AN/PRC-117]";
-        hiddenSelectionsTextures[]=
-		{
-			"Command_ReTextures\TFAR\Data\clf_prc117g\clf_prc117g_m81_co.paa"
-		};
-    };
-    class TFAR_rt1523g_MARD: TFAR_rt1523g_BH
-    {
-        scope=2;
-        displayname="MARPAT D [AN/PRC-117]";
-        hiddenSelectionsTextures[]=
-		{
-			"Command_ReTextures\TFAR\Data\clf_prc117g\clf_prc117g_MARPAT_Desert_co.paa"
-		};
-    };
-    class TFAR_rt1523g_MARW: TFAR_rt1523g_BH
-    {
-        scope=2;
-        displayname="MARPAT W [AN/PRC-117]";
-        hiddenSelectionsTextures[]=
-		{
-			"Command_ReTextures\TFAR\Data\clf_prc117g\clf_prc117g_MARPAT_Woodland_co.paa"
-		};
-    };
-    class TFAR_rt1523g_MC: TFAR_rt1523g_BH
-    {
-        scope=2;
-        displayname="Multicam [AN/PRC-117]";
-        hiddenSelectionsTextures[]=
-		{
-			"Command_ReTextures\TFAR\Data\clf_prc117g\clf_prc117g_MTP_co.paa"
-		};
-    };
-    class TFAR_rt1523g_RG: TFAR_rt1523g_BH
-    {
-        scope=2;
-        displayname="Ranger Green [AN/PRC-117]";
-        hiddenSelectionsTextures[]=
-		{
-			"Command_ReTextures\TFAR\Data\clf_prc117g\clf_prc117g_Ranger_green_co.paa"
-		};
-    };
-    class TFAR_rt1523g_RHSUCP: TFAR_rt1523g_BH
-    {
-        scope=2;
-        displayname="RHS UCP [AN/PRC-117]";
-        hiddenSelectionsTextures[]=
-		{
-			"Command_ReTextures\TFAR\Data\clf_prc117g\clf_prc117g_UCP_co.paa"
-		};
+    class CMD_B_RadioBag_01_Bastion_F: CMD_B_RadioBag_01_Medic_F
+    { 
+        displayname="[CMD] Bastion [AN/PRC-117G]";
+        hiddenSelectionsTextures[]=
+        {
+            "\Command\Command_ReTextures\TFAR\Command_Data\radiobag1_Bastion_co.paa"
+        };
+        maximumLoad=CMD_HIGH_Load;
+    };
+    class CMD_B_RadioBag_01_Gator_F: CMD_B_RadioBag_01_Bastion_F
+    { 
+        displayname="[CMD] Gator [AN/PRC-117G]";
+        hiddenSelectionsTextures[]=
+        {
+            "\Command\Command_ReTextures\TFAR\Command_Data\radiobag1_Gator_co.paa"
+        };
+    };
+    class CMD_B_RadioBag_01_Fox_F: CMD_B_RadioBag_01_Bastion_F
+    { 
+        displayname="[CMD] Fox [AN/PRC-117G]";
+        hiddenSelectionsTextures[]=
+        {
+            "\Command\Command_ReTextures\TFAR\Command_Data\radiobag1_Fox_co.paa"
+        };
+    };
+    class CMD_B_RadioBag_01_Haven_F: CMD_B_RadioBag_01_Bastion_F
+    { 
+        displayname="[CMD] Haven [AN/PRC-117G]";
+        hiddenSelectionsTextures[]=
+        {
+            "\Command\Command_ReTextures\TFAR\Command_Data\radiobag1_Haven_co.paa"
+        };
     };
 };
