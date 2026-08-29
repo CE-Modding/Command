@@ -133,6 +133,120 @@ class cfgVehicles
     };
 };
 
+class cfgLights
+{
+    class KAV_HealingCyan
+    {
+        color[]={0,1,1,1};
+        ambient[]={0,1,1,1};
+        brightness=10;
+        intensity=4000;
+        drawLight=0;
+        class Attenuation
+        {
+            start=0;
+            constant=1;
+            linear=0;
+            quadratic=40;
+        };
+        dayLight = 1;
+        position[]={0,0.2,0};
+        diffuse[]={0,0,0.1};
+    };
+    class KAV_HealingRed
+    {
+        color[]={1,0,0,1};
+        ambient[]={1,0,0,1};
+        brightness=10;
+        intensity=4000;
+        drawLight=0;
+        class Attenuation
+        {
+            start=0;
+            constant=1;
+            linear=0;
+            quadratic=40;
+        };
+        dayLight = 1;
+        position[]={0,0.2,0};
+        diffuse[]={0,0,0.1};
+    };
+};
+class SmokeShellWhiteSmall;
+class cfgCloudlets
+{
+    class KAV_Cyan_Smoke: SmokeShellWhiteSmall
+    {
+        lifeTime=0.8;
+        lifeTimeVar=0.2;
+        moveVelocity[] = {0,0.3,0};
+        moveVelocityVar[] = {0.1,0.1,0.1};
+        color[]={{0,0.71,0.67,0.8},{0,0.71,0.67,0.3},{0,0.71,0.67,0.25},{0,0.71,0.67,0.2},{0,0.71,0.67,0.15},{0,0.71,0.67,0.2},{0,0.71,0.67,0.01}};
+        colorCoef[]={0.2,0.5,0.5,1};
+        colorVar[]={0,0,0,1};
+        size[]={0.2,0.5,1}; //[0.2,6,10]
+    };
+    class KAV_Blood_Smoke: SmokeShellWhiteSmall
+    {
+        lifeTime=0.8;
+        lifeTimeVar=0.2;
+        moveVelocity[] = {0,0.3,0};
+        moveVelocityVar[] = {0.1,0.1,0.1};
+        color[]={{0.4,0.1,0.1,0.8},{0.4,0.1,0.1,0.3},{0.4,0.1,0.1,0.25},{0.4,0.1,0.1,0.2},{0.4,0.1,0.1,0.15},{0.4,0.1,0.1,0.2},{0.4,0.1,0.1,0.01}};
+        colorCoef[]={0.3,0.1,0.1,1};
+        colorVar[]={0,0,0,1};
+        size[]={0.2,0.5,1}; //[0.2,6,10]
+    };
+};
+class KAV_Blood_Smoke
+{
+    class Healing_Blood_Smoke
+    {
+        simulation="particles";
+        type="KAV_Blood_Smoke";
+        position[]={0,0,0};
+        intensity=1;
+        interval=1;
+        lifeTime=2;
+    };
+};
+class KAV_Cyan_Healing_Smoke
+{
+    class Healing_Cyan_Smoke
+    {
+        simulation="particles";
+        type="KAV_Cyan_Smoke";
+        position[]={0,0,0};
+        intensity=1;
+        interval=1;
+        lifeTime=2;
+    };
+};
+class KAV_Healing_Cyan
+{
+    class KAV_Cyan_Healing
+    {
+        simulation="light";
+        type="KAV_HealingCyan";
+        position[]={0,0,0};
+        intensity=0;
+        interval=1;
+        lifeTime=1;
+    };
+};
+class KAV_Healing_Red
+{
+    class KAV_Red_Healing
+    {
+        simulation="light";
+        type="KAV_HealingRed";
+        position[]={0,0,0};
+        intensity=0;
+        interval=1;
+        lifeTime=6;
+    };
+};
+
 class cfgAmmo 
 {
     class B_9x21_Ball;
@@ -154,7 +268,12 @@ class cfgAmmo
 		audibleFire=2;
 	};
     class CMD_MedicalDart_Bandage: CMD_MedicalDart_base 
-    {};
+    {
+        effectFly="KAV_Healing_Cyan";
+        explosionEffects="KAV_Cyan_Healing_Smoke";
+        craterEffects="";
+        explosive=0.2;
+    };
     class CMD_MedicalDart_Cyanide: CMD_MedicalDart_base
     {};
     class CMD_MedicalDart_Tranq: CMD_MedicalDart_base
@@ -166,7 +285,12 @@ class cfgAmmo
     class CMD_MedicalDart_TXA: CMD_MedicalDart_base
     {};
 	class CMD_MedicalDart_Blood: CMD_MedicalDart_base
-    {};
+    {
+        explosive=0.2;
+        craterEffects="";
+        effectFly="KAV_Healing_Red";
+        explosionEffects="KAV_Blood_Smoke";
+    };
 };
 class cfgMagazines 
 {
@@ -174,7 +298,7 @@ class cfgMagazines
 	class CMD_6Rnd_Stim_base: 16rnd_9x21_Mag
 	{
 		author="Gray + Kavik";
-		count=8;
+		count=6;
         tracersEvery=1;
 		lastRoundsTracer=0;
 		ammo="";
