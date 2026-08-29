@@ -42,10 +42,10 @@ class CfgVehicles
 		};
 		hiddenSelectionsTextures[]=
 		{
-			"Command_Faction\Compats\CE_Modding\Data\cherryblossom\VTOL_02_EXT01_CO.paa",
-			"Command_Faction\Compats\CE_Modding\Data\cherryblossom\VTOL_02_EXT02_CO.paa",
-			"Command_Faction\Compats\CE_Modding\Data\cherryblossom\VTOL_02_EXT03_L_CO.paa",
-			"Command_Faction\Compats\CE_Modding\Data\cherryblossom\VTOL_02_EXT03_R_CO.paa"
+			"\Command\Command_Faction\Compats\CE_Modding\Data\cherryblossom\VTOL_02_EXT01_CO.paa",
+			"\Command\Command_Faction\Compats\CE_Modding\Data\cherryblossom\VTOL_02_EXT02_CO.paa",
+			"\Command\Command_Faction\Compats\CE_Modding\Data\cherryblossom\VTOL_02_EXT03_L_CO.paa",
+			"\Command\Command_Faction\Compats\CE_Modding\Data\cherryblossom\VTOL_02_EXT03_R_CO.paa"
 		};
 		class TextureSources
 		{
@@ -56,10 +56,10 @@ class CfgVehicles
 				factions[]={};
 				textures[]=
 				{
-					"\CE_Aviation_2035\CE_Aviation_Vanilla\Xian\Data\VTOL_02_EXT01_black_CO.paa",
-					"\CE_Aviation_2035\CE_Aviation_Vanilla\Xian\Data\VTOL_02_EXT02_black_CO.paa",
-					"\CE_Aviation_2035\CE_Aviation_Vanilla\Xian\Data\VTOL_02_EXT03_L_black_CO.paa",
-					"\CE_Aviation_2035\CE_Aviation_Vanilla\Xian\Data\VTOL_02_EXT03_R_black_CO.paa"
+					"\CE_RHS_2635\CE_RHS_2635_Vehicles\Xian\Data\VTOL_02_EXT01_black_CO.paa",
+					"\CE_RHS_2635\CE_RHS_2635_Vehicles\Xian\Data\VTOL_02_EXT02_black_CO.paa",
+					"\CE_RHS_2635\CE_RHS_2635_Vehicles\Xian\Data\VTOL_02_EXT03_L_black_CO.paa",
+					"\CE_RHS_2635\CE_RHS_2635_Vehicles\Xian\Data\VTOL_02_EXT03_R_black_CO.paa"
 				};
 			};
 			class Blue
@@ -69,10 +69,10 @@ class CfgVehicles
 				factions[]={};
 				textures[]=
 				{
-					"\CE_Aviation_2035\CE_Aviation_Vanilla\Xian\Data\VTOL_02_EXT01_blue_CO.paa",
-					"\CE_Aviation_2035\CE_Aviation_Vanilla\Xian\Data\VTOL_02_EXT02_blue_CO.paa",
-					"\CE_Aviation_2035\CE_Aviation_Vanilla\Xian\Data\VTOL_02_EXT03_L_blue_CO.paa",
-					"\CE_Aviation_2035\CE_Aviation_Vanilla\Xian\Data\VTOL_02_EXT03_R_blue_CO.paa"
+					"\CE_RHS_2635\CE_RHS_2635_Vehicles\Xian\Data\VTOL_02_EXT01_blue_CO.paa",
+					"\CE_RHS_2635\CE_RHS_2635_Vehicles\Xian\Data\VTOL_02_EXT02_blue_CO.paa",
+					"\CE_RHS_2635\CE_RHS_2635_Vehicles\Xian\Data\VTOL_02_EXT03_L_blue_CO.paa",
+					"\CE_RHS_2635\CE_RHS_2635_Vehicles\Xian\Data\VTOL_02_EXT03_R_blue_CO.paa"
 				};
 			};
 			class Olive
@@ -82,10 +82,10 @@ class CfgVehicles
 				factions[]={};
 				textures[]=
 				{
-					"\CE_Aviation_2035\CE_Aviation_Vanilla\Xian\Data\VTOL_02_EXT01_Olive_CO.paa",
-					"\CE_Aviation_2035\CE_Aviation_Vanilla\Xian\Data\VTOL_02_EXT02_Olive_CO.paa",
-					"\CE_Aviation_2035\CE_Aviation_Vanilla\Xian\Data\VTOL_02_EXT03_L_Olive_CO.paa",
-					"\CE_Aviation_2035\CE_Aviation_Vanilla\Xian\Data\VTOL_02_EXT03_R_Olive_CO.paa"
+					"\CE_RHS_2635\CE_RHS_2635_Vehicles\Xian\Data\VTOL_02_EXT01_Olive_CO.paa",
+					"\CE_RHS_2635\CE_RHS_2635_Vehicles\Xian\Data\VTOL_02_EXT02_Olive_CO.paa",
+					"\CE_RHS_2635\CE_RHS_2635_Vehicles\Xian\Data\VTOL_02_EXT03_L_Olive_CO.paa",
+					"\CE_RHS_2635\CE_RHS_2635_Vehicles\Xian\Data\VTOL_02_EXT03_R_Olive_CO.paa"
 				};
 			};
 			class Sand
@@ -95,10 +95,10 @@ class CfgVehicles
 				factions[]={};
 				textures[]=
 				{
-					"\CE_Aviation_2035\CE_Aviation_Vanilla\Xian\Data\VTOL_02_EXT01_sand_CO.paa",
-					"\CE_Aviation_2035\CE_Aviation_Vanilla\Xian\Data\VTOL_02_EXT02_sand_CO.paa",
-					"\CE_Aviation_2035\CE_Aviation_Vanilla\Xian\Data\VTOL_02_EXT03_L_sand_CO.paa",
-					"\CE_Aviation_2035\CE_Aviation_Vanilla\Xian\Data\VTOL_02_EXT03_R_sand_CO.paa"
+					"\CE_RHS_2635\CE_RHS_2635_Vehicles\Xian\Data\VTOL_02_EXT01_sand_CO.paa",
+					"\CE_RHS_2635\CE_RHS_2635_Vehicles\Xian\Data\VTOL_02_EXT02_sand_CO.paa",
+					"\CE_RHS_2635\CE_RHS_2635_Vehicles\Xian\Data\VTOL_02_EXT03_L_sand_CO.paa",
+					"\CE_RHS_2635\CE_RHS_2635_Vehicles\Xian\Data\VTOL_02_EXT03_R_sand_CO.paa"
 				};
 			};
 			class White
@@ -108,10 +108,10 @@ class CfgVehicles
 				factions[]={};
 				textures[]=
 				{
-					"\CE_Aviation_2035\CE_Aviation_Vanilla\Xian\Data\VTOL_02_EXT01_White_CO.paa",
-					"\CE_Aviation_2035\CE_Aviation_Vanilla\Xian\Data\VTOL_02_EXT02_White_CO.paa",
-					"\CE_Aviation_2035\CE_Aviation_Vanilla\Xian\Data\VTOL_02_EXT03_L_White_CO.paa",
-					"\CE_Aviation_2035\CE_Aviation_Vanilla\Xian\Data\VTOL_02_EXT03_R_White_CO.paa"
+					"\CE_RHS_2635\CE_RHS_2635_Vehicles\Xian\Data\VTOL_02_EXT01_White_CO.paa",
+					"\CE_RHS_2635\CE_RHS_2635_Vehicles\Xian\Data\VTOL_02_EXT02_White_CO.paa",
+					"\CE_RHS_2635\CE_RHS_2635_Vehicles\Xian\Data\VTOL_02_EXT03_L_White_CO.paa",
+					"\CE_RHS_2635\CE_RHS_2635_Vehicles\Xian\Data\VTOL_02_EXT03_R_White_CO.paa"
 				};
 			};
 			class Command_Xian
@@ -120,10 +120,10 @@ class CfgVehicles
 				author="Kavik";
 				textures[] =
 				{
-					"Command_Faction\Compats\CE_Modding\Data\cherryblossom\VTOL_02_EXT01_CO.paa",
-					"Command_Faction\Compats\CE_Modding\Data\cherryblossom\VTOL_02_EXT02_CO.paa",
-					"Command_Faction\Compats\CE_Modding\Data\cherryblossom\VTOL_02_EXT03_L_CO.paa",
-					"Command_Faction\Compats\CE_Modding\Data\cherryblossom\VTOL_02_EXT03_R_CO.paa"
+					"\Command\Command_Faction\Compats\CE_Modding\Data\cherryblossom\VTOL_02_EXT01_CO.paa",
+					"\Command\Command_Faction\Compats\CE_Modding\Data\cherryblossom\VTOL_02_EXT02_CO.paa",
+					"\Command\Command_Faction\Compats\CE_Modding\Data\cherryblossom\VTOL_02_EXT03_L_CO.paa",
+					"\Command\Command_Faction\Compats\CE_Modding\Data\cherryblossom\VTOL_02_EXT03_R_CO.paa"
 				};
 			};
 		};
@@ -145,10 +145,10 @@ class CfgVehicles
 		};
 		hiddenSelectionsTextures[]=
 		{
-			"Command_Faction\Compats\CE_Modding\Data\cherryblossom\VTOL_02_EXT01_CO.paa",
-			"Command_Faction\Compats\CE_Modding\Data\cherryblossom\VTOL_02_EXT02_CO.paa",
-			"Command_Faction\Compats\CE_Modding\Data\cherryblossom\VTOL_02_EXT03_L_CO.paa",
-			"Command_Faction\Compats\CE_Modding\Data\cherryblossom\VTOL_02_EXT03_R_CO.paa"
+			"\Command\Command_Faction\Compats\CE_Modding\Data\cherryblossom\VTOL_02_EXT01_CO.paa",
+			"\Command\Command_Faction\Compats\CE_Modding\Data\cherryblossom\VTOL_02_EXT02_CO.paa",
+			"\Command\Command_Faction\Compats\CE_Modding\Data\cherryblossom\VTOL_02_EXT03_L_CO.paa",
+			"\Command\Command_Faction\Compats\CE_Modding\Data\cherryblossom\VTOL_02_EXT03_R_CO.paa"
 		};
 		class TextureSources
 		{
@@ -159,10 +159,10 @@ class CfgVehicles
 				factions[]={};
 				textures[]=
 				{
-					"\CE_Aviation_2035\CE_Aviation_Vanilla\Xian\Data\VTOL_02_EXT01_black_CO.paa",
-					"\CE_Aviation_2035\CE_Aviation_Vanilla\Xian\Data\VTOL_02_EXT02_black_CO.paa",
-					"\CE_Aviation_2035\CE_Aviation_Vanilla\Xian\Data\VTOL_02_EXT03_L_black_CO.paa",
-					"\CE_Aviation_2035\CE_Aviation_Vanilla\Xian\Data\VTOL_02_EXT03_R_black_CO.paa"
+					"\CE_RHS_2635\CE_RHS_2635_Vehicles\Xian\Data\VTOL_02_EXT01_black_CO.paa",
+					"\CE_RHS_2635\CE_RHS_2635_Vehicles\Xian\Data\VTOL_02_EXT02_black_CO.paa",
+					"\CE_RHS_2635\CE_RHS_2635_Vehicles\Xian\Data\VTOL_02_EXT03_L_black_CO.paa",
+					"\CE_RHS_2635\CE_RHS_2635_Vehicles\Xian\Data\VTOL_02_EXT03_R_black_CO.paa"
 				};
 			};
 			class Blue
@@ -172,10 +172,10 @@ class CfgVehicles
 				factions[]={};
 				textures[]=
 				{
-					"\CE_Aviation_2035\CE_Aviation_Vanilla\Xian\Data\VTOL_02_EXT01_blue_CO.paa",
-					"\CE_Aviation_2035\CE_Aviation_Vanilla\Xian\Data\VTOL_02_EXT02_blue_CO.paa",
-					"\CE_Aviation_2035\CE_Aviation_Vanilla\Xian\Data\VTOL_02_EXT03_L_blue_CO.paa",
-					"\CE_Aviation_2035\CE_Aviation_Vanilla\Xian\Data\VTOL_02_EXT03_R_blue_CO.paa"
+					"\CE_RHS_2635\CE_RHS_2635_Vehicles\Xian\Data\VTOL_02_EXT01_blue_CO.paa",
+					"\CE_RHS_2635\CE_RHS_2635_Vehicles\Xian\Data\VTOL_02_EXT02_blue_CO.paa",
+					"\CE_RHS_2635\CE_RHS_2635_Vehicles\Xian\Data\VTOL_02_EXT03_L_blue_CO.paa",
+					"\CE_RHS_2635\CE_RHS_2635_Vehicles\Xian\Data\VTOL_02_EXT03_R_blue_CO.paa"
 				};
 			};
 			class Olive
@@ -185,10 +185,10 @@ class CfgVehicles
 				factions[]={};
 				textures[]=
 				{
-					"\CE_Aviation_2035\CE_Aviation_Vanilla\Xian\Data\VTOL_02_EXT01_Olive_CO.paa",
-					"\CE_Aviation_2035\CE_Aviation_Vanilla\Xian\Data\VTOL_02_EXT02_Olive_CO.paa",
-					"\CE_Aviation_2035\CE_Aviation_Vanilla\Xian\Data\VTOL_02_EXT03_L_Olive_CO.paa",
-					"\CE_Aviation_2035\CE_Aviation_Vanilla\Xian\Data\VTOL_02_EXT03_R_Olive_CO.paa"
+					"\CE_RHS_2635\CE_RHS_2635_Vehicles\Xian\Data\VTOL_02_EXT01_Olive_CO.paa",
+					"\CE_RHS_2635\CE_RHS_2635_Vehicles\Xian\Data\VTOL_02_EXT02_Olive_CO.paa",
+					"\CE_RHS_2635\CE_RHS_2635_Vehicles\Xian\Data\VTOL_02_EXT03_L_Olive_CO.paa",
+					"\CE_RHS_2635\CE_RHS_2635_Vehicles\Xian\Data\VTOL_02_EXT03_R_Olive_CO.paa"
 				};
 			};
 			class Sand
@@ -198,10 +198,10 @@ class CfgVehicles
 				factions[]={};
 				textures[]=
 				{
-					"\CE_Aviation_2035\CE_Aviation_Vanilla\Xian\Data\VTOL_02_EXT01_sand_CO.paa",
-					"\CE_Aviation_2035\CE_Aviation_Vanilla\Xian\Data\VTOL_02_EXT02_sand_CO.paa",
-					"\CE_Aviation_2035\CE_Aviation_Vanilla\Xian\Data\VTOL_02_EXT03_L_sand_CO.paa",
-					"\CE_Aviation_2035\CE_Aviation_Vanilla\Xian\Data\VTOL_02_EXT03_R_sand_CO.paa"
+					"\CE_RHS_2635\CE_RHS_2635_Vehicles\Xian\Data\VTOL_02_EXT01_sand_CO.paa",
+					"\CE_RHS_2635\CE_RHS_2635_Vehicles\Xian\Data\VTOL_02_EXT02_sand_CO.paa",
+					"\CE_RHS_2635\CE_RHS_2635_Vehicles\Xian\Data\VTOL_02_EXT03_L_sand_CO.paa",
+					"\CE_RHS_2635\CE_RHS_2635_Vehicles\Xian\Data\VTOL_02_EXT03_R_sand_CO.paa"
 				};
 			};
 			class White
@@ -211,10 +211,10 @@ class CfgVehicles
 				factions[]={};
 				textures[]=
 				{
-					"\CE_Aviation_2035\CE_Aviation_Vanilla\Xian\Data\VTOL_02_EXT01_White_CO.paa",
-					"\CE_Aviation_2035\CE_Aviation_Vanilla\Xian\Data\VTOL_02_EXT02_White_CO.paa",
-					"\CE_Aviation_2035\CE_Aviation_Vanilla\Xian\Data\VTOL_02_EXT03_L_White_CO.paa",
-					"\CE_Aviation_2035\CE_Aviation_Vanilla\Xian\Data\VTOL_02_EXT03_R_White_CO.paa"
+					"\CE_RHS_2635\CE_RHS_2635_Vehicles\Xian\Data\VTOL_02_EXT01_White_CO.paa",
+					"\CE_RHS_2635\CE_RHS_2635_Vehicles\Xian\Data\VTOL_02_EXT02_White_CO.paa",
+					"\CE_RHS_2635\CE_RHS_2635_Vehicles\Xian\Data\VTOL_02_EXT03_L_White_CO.paa",
+					"\CE_RHS_2635\CE_RHS_2635_Vehicles\Xian\Data\VTOL_02_EXT03_R_White_CO.paa"
 				};
 			};
 			class Command_Xian
@@ -223,10 +223,10 @@ class CfgVehicles
 				author="Kavik";
 				textures[] =
 				{
-					"Command_Faction\Compats\CE_Modding\Data\cherryblossom\VTOL_02_EXT01_CO.paa",
-					"Command_Faction\Compats\CE_Modding\Data\cherryblossom\VTOL_02_EXT02_CO.paa",
-					"Command_Faction\Compats\CE_Modding\Data\cherryblossom\VTOL_02_EXT03_L_CO.paa",
-					"Command_Faction\Compats\CE_Modding\Data\cherryblossom\VTOL_02_EXT03_R_CO.paa"
+					"\Command\Command_Faction\Compats\CE_Modding\Data\cherryblossom\VTOL_02_EXT01_CO.paa",
+					"\Command\Command_Faction\Compats\CE_Modding\Data\cherryblossom\VTOL_02_EXT02_CO.paa",
+					"\Command\Command_Faction\Compats\CE_Modding\Data\cherryblossom\VTOL_02_EXT03_L_CO.paa",
+					"\Command\Command_Faction\Compats\CE_Modding\Data\cherryblossom\VTOL_02_EXT03_R_CO.paa"
 				};
 			};
 		};
@@ -248,10 +248,10 @@ class CfgVehicles
 		};
 		hiddenSelectionsTextures[]=
 		{
-			"\CE_Aviation_2035\CE_Aviation_Vanilla\Xian\Data\VTOL_02_EXT01_blue_CO.paa",
-			"\CE_Aviation_2035\CE_Aviation_Vanilla\Xian\Data\VTOL_02_EXT02_blue_CO.paa",
-			"\CE_Aviation_2035\CE_Aviation_Vanilla\Xian\Data\VTOL_02_EXT03_L_blue_CO.paa",
-			"\CE_Aviation_2035\CE_Aviation_Vanilla\Xian\Data\VTOL_02_EXT03_R_blue_CO.paa"
+			"\CE_RHS_2635\CE_RHS_2635_Vehicles\Xian\Data\VTOL_02_EXT01_blue_CO.paa",
+			"\CE_RHS_2635\CE_RHS_2635_Vehicles\Xian\Data\VTOL_02_EXT02_blue_CO.paa",
+			"\CE_RHS_2635\CE_RHS_2635_Vehicles\Xian\Data\VTOL_02_EXT03_L_blue_CO.paa",
+			"\CE_RHS_2635\CE_RHS_2635_Vehicles\Xian\Data\VTOL_02_EXT03_R_blue_CO.paa"
 		};
 		class TextureSources
 		{
@@ -262,10 +262,10 @@ class CfgVehicles
 				factions[]={};
 				textures[]=
 				{
-					"\CE_Aviation_2035\CE_Aviation_Vanilla\Xian\Data\VTOL_02_EXT01_black_CO.paa",
-					"\CE_Aviation_2035\CE_Aviation_Vanilla\Xian\Data\VTOL_02_EXT02_black_CO.paa",
-					"\CE_Aviation_2035\CE_Aviation_Vanilla\Xian\Data\VTOL_02_EXT03_L_black_CO.paa",
-					"\CE_Aviation_2035\CE_Aviation_Vanilla\Xian\Data\VTOL_02_EXT03_R_black_CO.paa"
+					"\CE_RHS_2635\CE_RHS_2635_Vehicles\Xian\Data\VTOL_02_EXT01_black_CO.paa",
+					"\CE_RHS_2635\CE_RHS_2635_Vehicles\Xian\Data\VTOL_02_EXT02_black_CO.paa",
+					"\CE_RHS_2635\CE_RHS_2635_Vehicles\Xian\Data\VTOL_02_EXT03_L_black_CO.paa",
+					"\CE_RHS_2635\CE_RHS_2635_Vehicles\Xian\Data\VTOL_02_EXT03_R_black_CO.paa"
 				};
 			};
 			class Blue
@@ -275,10 +275,10 @@ class CfgVehicles
 				factions[]={};
 				textures[]=
 				{
-					"\CE_Aviation_2035\CE_Aviation_Vanilla\Xian\Data\VTOL_02_EXT01_blue_CO.paa",
-					"\CE_Aviation_2035\CE_Aviation_Vanilla\Xian\Data\VTOL_02_EXT02_blue_CO.paa",
-					"\CE_Aviation_2035\CE_Aviation_Vanilla\Xian\Data\VTOL_02_EXT03_L_blue_CO.paa",
-					"\CE_Aviation_2035\CE_Aviation_Vanilla\Xian\Data\VTOL_02_EXT03_R_blue_CO.paa"
+					"\CE_RHS_2635\CE_RHS_2635_Vehicles\Xian\Data\VTOL_02_EXT01_blue_CO.paa",
+					"\CE_RHS_2635\CE_RHS_2635_Vehicles\Xian\Data\VTOL_02_EXT02_blue_CO.paa",
+					"\CE_RHS_2635\CE_RHS_2635_Vehicles\Xian\Data\VTOL_02_EXT03_L_blue_CO.paa",
+					"\CE_RHS_2635\CE_RHS_2635_Vehicles\Xian\Data\VTOL_02_EXT03_R_blue_CO.paa"
 				};
 			};
 			class Olive
@@ -288,10 +288,10 @@ class CfgVehicles
 				factions[]={};
 				textures[]=
 				{
-					"\CE_Aviation_2035\CE_Aviation_Vanilla\Xian\Data\VTOL_02_EXT01_Olive_CO.paa",
-					"\CE_Aviation_2035\CE_Aviation_Vanilla\Xian\Data\VTOL_02_EXT02_Olive_CO.paa",
-					"\CE_Aviation_2035\CE_Aviation_Vanilla\Xian\Data\VTOL_02_EXT03_L_Olive_CO.paa",
-					"\CE_Aviation_2035\CE_Aviation_Vanilla\Xian\Data\VTOL_02_EXT03_R_Olive_CO.paa"
+					"\CE_RHS_2635\CE_RHS_2635_Vehicles\Xian\Data\VTOL_02_EXT01_Olive_CO.paa",
+					"\CE_RHS_2635\CE_RHS_2635_Vehicles\Xian\Data\VTOL_02_EXT02_Olive_CO.paa",
+					"\CE_RHS_2635\CE_RHS_2635_Vehicles\Xian\Data\VTOL_02_EXT03_L_Olive_CO.paa",
+					"\CE_RHS_2635\CE_RHS_2635_Vehicles\Xian\Data\VTOL_02_EXT03_R_Olive_CO.paa"
 				};
 			};
 			class Sand
@@ -301,10 +301,10 @@ class CfgVehicles
 				factions[]={};
 				textures[]=
 				{
-					"\CE_Aviation_2035\CE_Aviation_Vanilla\Xian\Data\VTOL_02_EXT01_sand_CO.paa",
-					"\CE_Aviation_2035\CE_Aviation_Vanilla\Xian\Data\VTOL_02_EXT02_sand_CO.paa",
-					"\CE_Aviation_2035\CE_Aviation_Vanilla\Xian\Data\VTOL_02_EXT03_L_sand_CO.paa",
-					"\CE_Aviation_2035\CE_Aviation_Vanilla\Xian\Data\VTOL_02_EXT03_R_sand_CO.paa"
+					"\CE_RHS_2635\CE_RHS_2635_Vehicles\Xian\Data\VTOL_02_EXT01_sand_CO.paa",
+					"\CE_RHS_2635\CE_RHS_2635_Vehicles\Xian\Data\VTOL_02_EXT02_sand_CO.paa",
+					"\CE_RHS_2635\CE_RHS_2635_Vehicles\Xian\Data\VTOL_02_EXT03_L_sand_CO.paa",
+					"\CE_RHS_2635\CE_RHS_2635_Vehicles\Xian\Data\VTOL_02_EXT03_R_sand_CO.paa"
 				};
 			};
 			class White
@@ -314,10 +314,10 @@ class CfgVehicles
 				factions[]={};
 				textures[]=
 				{
-					"\CE_Aviation_2035\CE_Aviation_Vanilla\Xian\Data\VTOL_02_EXT01_White_CO.paa",
-					"\CE_Aviation_2035\CE_Aviation_Vanilla\Xian\Data\VTOL_02_EXT02_White_CO.paa",
-					"\CE_Aviation_2035\CE_Aviation_Vanilla\Xian\Data\VTOL_02_EXT03_L_White_CO.paa",
-					"\CE_Aviation_2035\CE_Aviation_Vanilla\Xian\Data\VTOL_02_EXT03_R_White_CO.paa"
+					"\CE_RHS_2635\CE_RHS_2635_Vehicles\Xian\Data\VTOL_02_EXT01_White_CO.paa",
+					"\CE_RHS_2635\CE_RHS_2635_Vehicles\Xian\Data\VTOL_02_EXT02_White_CO.paa",
+					"\CE_RHS_2635\CE_RHS_2635_Vehicles\Xian\Data\VTOL_02_EXT03_L_White_CO.paa",
+					"\CE_RHS_2635\CE_RHS_2635_Vehicles\Xian\Data\VTOL_02_EXT03_R_White_CO.paa"
 				};
 			};
 			class Command_Xian
@@ -326,10 +326,10 @@ class CfgVehicles
 				author="Kavik";
 				textures[] =
 				{
-					"Command_Faction\Compats\CE_Modding\Data\cherryblossom\VTOL_02_EXT01_CO.paa",
-					"Command_Faction\Compats\CE_Modding\Data\cherryblossom\VTOL_02_EXT02_CO.paa",
-					"Command_Faction\Compats\CE_Modding\Data\cherryblossom\VTOL_02_EXT03_L_CO.paa",
-					"Command_Faction\Compats\CE_Modding\Data\cherryblossom\VTOL_02_EXT03_R_CO.paa"
+					"\Command\Command_Faction\Compats\CE_Modding\Data\cherryblossom\VTOL_02_EXT01_CO.paa",
+					"\Command\Command_Faction\Compats\CE_Modding\Data\cherryblossom\VTOL_02_EXT02_CO.paa",
+					"\Command\Command_Faction\Compats\CE_Modding\Data\cherryblossom\VTOL_02_EXT03_L_CO.paa",
+					"\Command\Command_Faction\Compats\CE_Modding\Data\cherryblossom\VTOL_02_EXT03_R_CO.paa"
 				};
 			};
 		};

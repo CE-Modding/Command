@@ -12,7 +12,7 @@ PixelShaderID = "Super";
 VertexShaderID = "Super";
 class Stage1
 {
-    texture = "Command_Master\AOT\data\aot_slight_damage_nohq.paa";
+    texture = "Command\Command_Master\AOT\data\aot_slight_damage_nohq.paa";
     uvSource = "tex";
     class uvTransform
     {
@@ -48,7 +48,7 @@ class Stage3
 };
 class Stage4
 {
-    texture = "Command_Master\AOT\data\aot_slight_damage_as.paa";
+    texture = "Command\Command_Master\AOT\data\aot_slight_damage_as.paa";
     uvSource = "tex";
     class uvTransform
     {
@@ -60,7 +60,7 @@ class Stage4
 };
 class Stage5
 {
-    texture = "Command_Master\AOT\data\aot_slight_damage_smdi.paa";
+    texture = "Command\Command_Master\AOT\data\aot_slight_damage_smdi.paa";
     uvSource = "tex";
     class uvTransform
     {

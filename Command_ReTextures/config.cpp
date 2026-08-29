@@ -25,7 +25,7 @@ class CfgVehicles
         author="Kavik";
         scope=2;
         displayname="[CMD] Medic Kitbag";
-        hiddenSelectionsTextures[]={"Command_ReTextures\Data\Medic_Kitbag_co.paa"};
+        hiddenSelectionsTextures[]={"\Command\Command_ReTextures\Data\Medic_Kitbag_co.paa"};
         maximumLoad=400;
 	};
 	class Banner_01_F;
@@ -35,7 +35,7 @@ class CfgVehicles
         displayName="Command 2nd Battalion Banner";
         editorCategory="Command_EdCat";
         editorSubcategory="Command_Flags_SubEdCat";
-        hiddenSelectionsTextures[]={"Command_ReTextures\Data\2ndBattalionBanner.paa"};
+        hiddenSelectionsTextures[]={"\Command\Command_ReTextures\Data\2ndBattalionBanner.paa"};
     };
 
 	class Thing;
@@ -137,7 +137,7 @@ class CfgVehicles
 		displayName="[CMD] Arsenal Crate (Orange)";
 		hiddenSelectionsTextures[]=
 		{
-			"Command_Arsenal\Data\Arsenal_SupplyDrop_Orange_CO.paa"
+			"\Command\Command_ReTextures\Data\Arsenal_SupplyDrop_Orange_CO.paa"
 		};
 	};
 };

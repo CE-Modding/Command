@@ -43,12 +43,12 @@ class CfgVehicles
     class Command_TIMEmagazine_Kane: N4_tomPoster
 	{
 		author="CE_Modding";
-		editorPreview="Command_ReTextures\EO_3den\Data\Kane_TimeMagazine_Preview.jpg";
+		editorPreview="\Command\Command_ReTextures\EO_3den\Data\Kane_TimeMagazine_Preview.jpg";
 		_generalMacro="Command_TIMEmagazine_Kane";
 		displayName="TIME Magazine - Kane";
 		hiddenSelectionsTextures[]=
 		{
-			"Command_ReTextures\EO_3den\Data\Kane_TimeMagazine_CA.paa"
+			"\Command\Command_ReTextures\EO_3den\Data\Kane_TimeMagazine_CA.paa"
 		};
 		icon="iconObject_1x2";
 		class Attributes

@@ -26,7 +26,7 @@ class CfgWeapons
         displayName="[CMD] RPK74 (Thunderstruck)";
         author="Fynn";
         hiddenSelections[]={"Camo1"};
-        hiddenSelectionsTextures[]={"Command_ReTextures\RHSAFRF\Data\RPK74.paa"};
+        hiddenSelectionsTextures[]={"\Command\Command_ReTextures\RHSAFRF\Data\RPK74.paa"};
         baseWeapon="Command_RHS_rpk74_Thunderstruck";
     };
 };

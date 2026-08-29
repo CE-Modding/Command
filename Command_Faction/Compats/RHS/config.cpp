@@ -142,7 +142,7 @@ class CfgVehicles
 				author="Command";
 				textures[]=
 				{
-					"Command_ReTextures\RHSUSAF\Data\ThiccThighs10.paa",
+					"\Command\Command_ReTextures\RHSUSAF\Data\ThiccThighs10.paa",
 					"rhsusf\addons\rhsusf_m11xx\data\rhsusf_M1151_Tire_wd_CO.paa",
 					"rhsusf\addons\rhsusf_m11xx\data\rhsusf_M1151_Int_wd_CO.paa",
 					"rhsusf\addons\rhsusf_m11xx\data\rhsusf_M1151_Acc_wd_CO.paa",
@@ -212,7 +212,7 @@ class CfgVehicles
 		};
 		HiddenSelectionsTextures[]=
 		{
-			"Command_ReTextures\RHSUSAF\Data\ThiccThighs10.paa",
+			"\Command\Command_ReTextures\RHSUSAF\Data\ThiccThighs10.paa",
 			"rhsusf\addons\rhsusf_m11xx\data\rhsusf_M1151_Tire_wd_CO.paa",
 			"rhsusf\addons\rhsusf_m11xx\data\rhsusf_M1151_Int_wd_CO.paa",
 			"rhsusf\addons\rhsusf_m11xx\data\rhsusf_M1151_Acc_wd_CO.paa",
@@ -234,7 +234,7 @@ class CfgVehicles
 				author="Tb";
 				textures[]=
 				{
-					"Command_ReTextures\RHSUSAF\Data\ThiccThighs10.paa",
+					"\Command\Command_ReTextures\RHSUSAF\Data\ThiccThighs10.paa",
 					"rhsusf\addons\rhsusf_m11xx\data\rhsusf_M1151_Tire_wd_CO.paa",
 					"rhsusf\addons\rhsusf_m11xx\data\rhsusf_M1151_Int_wd_CO.paa",
 					"rhsusf\addons\rhsusf_m11xx\data\rhsusf_M1151_Acc_wd_CO.paa",

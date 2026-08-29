@@ -11,16 +11,16 @@ class CfgPatches
 };
 class CfgMusic
 {
-	#include "_EndMusic.hpp"
-	#include "AceCombat.hpp"
-	#include "AceCombat_Brief.hpp"
-	#include "CommandConquer_Generals.hpp"
-	#include "CommandConquer_RedAlert.hpp"
-	#include "CommandConquer_RenX.hpp"
-	#include "CommandConquer_Tiberium.hpp"
-	#include "HAWX.hpp"
-	#include "SealTeam.hpp"
-	#include "Command.hpp" // Existing Stuff from Commands' Pack
+	#include "\Command\Command_Audio\Music\_EndMusic.hpp"
+	#include "\Command\Command_Audio\Music\AceCombat.hpp"
+	#include "\Command\Command_Audio\Music\AceCombat_Brief.hpp"
+	#include "\Command\Command_Audio\Music\CommandConquer_Generals.hpp"
+	#include "\Command\Command_Audio\Music\CommandConquer_RedAlert.hpp"
+	#include "\Command\Command_Audio\Music\CommandConquer_RenX.hpp"
+	#include "\Command\Command_Audio\Music\CommandConquer_Tiberium.hpp"
+	#include "\Command\Command_Audio\Music\HAWX.hpp"
+	#include "\Command\Command_Audio\Music\SealTeam.hpp"
+	#include "\Command\Command_Audio\Music\Command.hpp" // Existing Stuff from Commands' Pack
 };
 class CfgMusicClasses
 {

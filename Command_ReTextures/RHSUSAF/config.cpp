@@ -96,8 +96,8 @@ class CfgWeapons
 		displayName="[CMD] HGU-56/P (Haven)";
 		hiddenSelectionsTextures[]=
 		{
-			"Command_ReTextures\RHSUSAF\Data\Haven_CO.paa",
-			"Command_ReTextures\RHSUSAF\Data\Haven_Patches_CA.paa"
+			"\Command\Command_ReTextures\RHSUSAF\Data\Haven_CO.paa",
+			"\Command\Command_ReTextures\RHSUSAF\Data\Haven_Patches_CA.paa"
 		};
 	};
 	class Command_haven_mask: Command_hgu56p_mask_base
@@ -106,8 +106,8 @@ class CfgWeapons
 		displayName="[CMD] HGU-56/P (Haven/Mask)";
 		hiddenSelectionsTextures[]=
 		{
-			"Command_ReTextures\RHSUSAF\Data\Haven_CO.paa",
-			"Command_ReTextures\RHSUSAF\Data\Haven_Patches_CA.paa"
+			"\Command\Command_ReTextures\RHSUSAF\Data\Haven_CO.paa",
+			"\Command\Command_ReTextures\RHSUSAF\Data\Haven_Patches_CA.paa"
 		};
 	};
 	class Command_haven_visor: Command_hgu56p_visor_base
@@ -116,8 +116,8 @@ class CfgWeapons
 		displayName="[CMD] HGU-56/P (Haven/Visor) [NVG]";
 		hiddenSelectionsTextures[]=
 		{
-			"Command_ReTextures\RHSUSAF\Data\Haven_CO.paa",
-			"Command_ReTextures\RHSUSAF\Data\Haven_Patches_CA.paa",
+			"\Command\Command_ReTextures\RHSUSAF\Data\Haven_CO.paa",
+			"\Command\Command_ReTextures\RHSUSAF\Data\Haven_Patches_CA.paa",
 			"\rhsusf\addons\rhsusf_infantry2\gear\head\hgu56\Data\rhs_hgu56_visor_ca.paa"
 		};
 	};
@@ -127,8 +127,8 @@ class CfgWeapons
 		displayName="[CMD] HGU-56/P (Haven/Visor/Mask) [NVG]";
 		hiddenSelectionsTextures[]=
 		{
-			"Command_ReTextures\RHSUSAF\Data\Haven_CO.paa",
-			"Command_ReTextures\RHSUSAF\Data\Haven_Patches_CA.paa",
+			"\Command\Command_ReTextures\RHSUSAF\Data\Haven_CO.paa",
+			"\Command\Command_ReTextures\RHSUSAF\Data\Haven_Patches_CA.paa",
 			"\rhsusf\addons\rhsusf_infantry2\gear\head\hgu56\Data\rhs_hgu56_visor_ca.paa"
 		};
 	};
@@ -139,8 +139,8 @@ class CfgWeapons
 		displayName="[CMD] HGU-56/P (Haven-Alt)";
 		hiddenSelectionsTextures[]=
 		{
-			"Command_ReTextures\RHSUSAF\Data\Haven2_CO.paa",
-			"Command_ReTextures\RHSUSAF\Data\HavenAlt_Patches_CA.paa"
+			"\Command\Command_ReTextures\RHSUSAF\Data\Haven2_CO.paa",
+			"\Command\Command_ReTextures\RHSUSAF\Data\HavenAlt_Patches_CA.paa"
 		};
 	};
 	class Command_haven_mask_alt: Command_hgu56p_mask_base
@@ -149,8 +149,8 @@ class CfgWeapons
 		displayName="[CMD] HGU-56/P (Haven-Alt/Mask)";
 		hiddenSelectionsTextures[]=
 		{
-			"Command_ReTextures\RHSUSAF\Data\Haven2_CO.paa",
-			"Command_ReTextures\RHSUSAF\Data\HavenAlt_Patches_CA.paa"
+			"\Command\Command_ReTextures\RHSUSAF\Data\Haven2_CO.paa",
+			"\Command\Command_ReTextures\RHSUSAF\Data\HavenAlt_Patches_CA.paa"
 		};
 	};
 	class Command_haven_visor_alt: Command_hgu56p_visor_base
@@ -159,8 +159,8 @@ class CfgWeapons
 		displayName="[CMD] HGU-56/P (Haven-Alt/Visor) [NVG]";
 		hiddenSelectionsTextures[]=
 		{
-			"Command_ReTextures\RHSUSAF\Data\Haven2_CO.paa",
-			"Command_ReTextures\RHSUSAF\Data\HavenAlt_Patches_CA.paa",
+			"\Command\Command_ReTextures\RHSUSAF\Data\Haven2_CO.paa",
+			"\Command\Command_ReTextures\RHSUSAF\Data\HavenAlt_Patches_CA.paa",
 			"\rhsusf\addons\rhsusf_infantry2\gear\head\hgu56\Data\rhs_hgu56_visor_ca.paa"
 		};
 	};
@@ -170,8 +170,8 @@ class CfgWeapons
 		displayName="[CMD] HGU-56/P (Haven-Alt/Visor/Mask) [NVG]";
 		hiddenSelectionsTextures[]=
 		{
-			"Command_ReTextures\RHSUSAF\Data\Haven2_CO.paa",
-			"Command_ReTextures\RHSUSAF\Data\HavenAlt_Patches_CA.paa",
+			"\Command\Command_ReTextures\RHSUSAF\Data\Haven2_CO.paa",
+			"\Command\Command_ReTextures\RHSUSAF\Data\HavenAlt_Patches_CA.paa",
 			"\rhsusf\addons\rhsusf_infantry2\gear\head\hgu56\Data\rhs_hgu56_visor_ca.paa"
 		};
 	};
@@ -186,7 +186,7 @@ class CfgWeapons
         hiddenSelections[]={ "camo1" };
         hiddenSelectionsTextures[]=
 		{
-			"Command_ReTextures\RHSUSAF\Data\Corvus19Final.paa"
+			"\Command\Command_ReTextures\RHSUSAF\Data\Corvus19Final.paa"
 		};
         baseWeapon="Command_RHS_M4A1_COrvus19";
     };

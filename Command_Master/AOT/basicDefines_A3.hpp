@@ -83,9 +83,6 @@ enum {StabilizedInAxesNone,StabilizedInAxisX,StabilizedInAxisY,StabilizedInAxesB
 
 #define VEST_SLOT      701
 #define BACKPACK_SLOT  901
-
-#define LOAD(weight,capacity) maximumLoad = ##capacity##; \
-							  mass = ##weight##;
 							  
 #define HeadArmourCoef 2.5
 #define BodyArmourCoef 10
