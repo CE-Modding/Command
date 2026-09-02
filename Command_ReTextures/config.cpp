@@ -43,7 +43,11 @@ class CfgVehicles
 	{
 		class eventhandlers;
 	};
-	class Command_SupplyCrate_base: ThingX
+	class ReammoBox_F: ThingX
+	{
+		class DestructionEffects;
+	};
+	class Command_SupplyCrate_base: ReammoBox_F
 	{
 		mapSize=1.58;
 		class SimpleObject
@@ -60,6 +64,7 @@ class CfgVehicles
 		scope=0;
 		scopeCurator=0;
 		displayName="[CMD] Arsenal Crate";
+		model="\A3\Weapons_F\Ammoboxes\Supplydrop.p3d";
 		editorCategory="Command_EdCat";
 		author="CE_Modding";
 		icon="iconCrate";
@@ -68,9 +73,9 @@ class CfgVehicles
 		vehicleClass="Ammo";
 		destrType=DestructBuilding;
 		explosionEffect="BasicAmmoExplosion";
-		class DestructionEffects
+		class DestructionEffects: DestructionEffects
 		{
-			class Smoke2
+			class Smoke2: Smoke2
 			{
 				simulation="particles";
 				type="AmmoSmokeParticles2";
@@ -79,7 +84,7 @@ class CfgVehicles
 				interval=1;
 				lifeTime=2;
 			};
-			class Bullets
+			class Bullets: Bullets
 			{
 				simulation="particles";
 				type="AmmoBulletCore";
@@ -88,7 +93,7 @@ class CfgVehicles
 				interval=1;
 				lifeTime=1.2;
 			};
-			class HouseDestr
+			class HouseDestr: HouseDestr
 			{
 				simulation="destroy";
 				type="DelayedDestructionAmmoBox";
