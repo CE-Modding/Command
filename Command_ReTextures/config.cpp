@@ -75,7 +75,7 @@ class CfgVehicles
 		explosionEffect="BasicAmmoExplosion";
 		class DestructionEffects: DestructionEffects
 		{
-			class Smoke2: Smoke2
+			class Smoke2
 			{
 				simulation="particles";
 				type="AmmoSmokeParticles2";
@@ -84,7 +84,7 @@ class CfgVehicles
 				interval=1;
 				lifeTime=2;
 			};
-			class Bullets: Bullets
+			class Bullets
 			{
 				simulation="particles";
 				type="AmmoBulletCore";
@@ -93,7 +93,7 @@ class CfgVehicles
 				interval=1;
 				lifeTime=1.2;
 			};
-			class HouseDestr: HouseDestr
+			class HouseDestr
 			{
 				simulation="destroy";
 				type="DelayedDestructionAmmoBox";
