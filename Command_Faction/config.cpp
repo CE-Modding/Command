@@ -48,7 +48,7 @@ class cfgFactionClasses
         displayName="[Command]";
         priority=3; // Position in list.
         side=1; // Opfor=0, Blufor=1, Indep=2.
-        icon="Command_Master/Command_Logo_512_ca.paa"; //Custom Icon
+        icon="\Command\Command_Master\Command_Logo_512_ca.paa"; //Custom Icon
     };
 };
 
